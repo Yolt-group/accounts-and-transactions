@@ -1,0 +1,233 @@
+[
+  {
+    "transactionId": null,
+    "externalId": "294053470",
+    "dateTime": "2020-05-06T14:37:13.995212+02:00",
+    "amount": 1.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "-",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "transactionId": "294053470",
+      "bookingDate": "2020-05-06T14:37:13.995212+02:00",
+      "transactionAmount": {
+        "currency": "EUR",
+        "amount": 1.00
+      },
+      "creditorName": "redacted1",
+      "creditorAccount": {
+        "type": "IBAN",
+        "value": "redacted12"
+      },
+      "debtorName": "redacted2",
+      "debtorAccount": {
+        "type": "IBAN",
+        "value": "redacted13"
+      },
+      "remittanceInformationUnstructured": "-",
+      "transactionIdGenerated": false
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": null,
+    "externalId": "293788638",
+    "dateTime": "2020-05-06T11:36:12.614197+02:00",
+    "amount": 2.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "transactionId": "293788638",
+      "bookingDate": "2020-05-06T11:36:12.614197+02:00",
+      "transactionAmount": {
+        "currency": "EUR",
+        "amount": -2.00
+      },
+      "creditorName": "redacted3",
+      "creditorAccount": {
+        "type": "IBAN",
+        "value": "redacted13"
+      },
+      "debtorName": "redacted4",
+      "debtorAccount": {
+        "type": "IBAN",
+        "value": "redacted12"
+      },
+      "remittanceInformationUnstructured": "",
+      "transactionIdGenerated": false
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": null,
+    "externalId": "291587565",
+    "dateTime": "2020-05-01T15:02:01.591296+02:00",
+    "amount": 1.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "redacted5",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "transactionId": "291587565",
+      "bookingDate": "2020-05-01T15:02:01.591296+02:00",
+      "transactionAmount": {
+        "currency": "EUR",
+        "amount": -1.00
+      },
+      "creditorName": "redacted6",
+      "creditorAccount": {
+        "type": "IBAN",
+        "value": "redacted14"
+      },
+      "debtorName": "redacted4",
+      "debtorAccount": {
+        "type": "IBAN",
+        "value": "redacted12"
+      },
+      "remittanceInformationUnstructured": "redacted5",
+      "transactionIdGenerated": false
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": null,
+    "externalId": "290910605",
+    "dateTime": "2020-04-30T10:02:08.751518+02:00",
+    "amount": 0.50,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "transactionId": "290910605",
+      "bookingDate": "2020-04-30T10:02:08.751518+02:00",
+      "transactionAmount": {
+        "currency": "EUR",
+        "amount": -0.50
+      },
+      "creditorName": "redacted7",
+      "creditorAccount": {
+        "type": "IBAN",
+        "value": "redacted15"
+      },
+      "debtorName": "redacted4",
+      "debtorAccount": {
+        "type": "IBAN",
+        "value": "redacted12"
+      },
+      "remittanceInformationUnstructured": "",
+      "transactionIdGenerated": false
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": null,
+    "externalId": "289957513",
+    "dateTime": "2020-04-28T11:32:19.092649+02:00",
+    "amount": 7.99,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "redacted16",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "transactionId": "289957513",
+      "bookingDate": "2020-04-28T11:32:19.092649+02:00",
+      "transactionAmount": {
+        "currency": "EUR",
+        "amount": -7.99
+      },
+      "creditorName": "bunq",
+      "creditorAccount": {
+        "type": "IBAN",
+        "value": "redacted17"
+      },
+      "debtorName": "redacted4",
+      "debtorAccount": {
+        "type": "IBAN",
+        "value": "redacted12"
+      },
+      "remittanceInformationUnstructured": "redacted16",
+      "transactionIdGenerated": false
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": null,
+    "externalId": "287812275",
+    "dateTime": "2020-04-23T15:33:07.930658+02:00",
+    "amount": 1.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "transactionId": "287812275",
+      "bookingDate": "2020-04-23T15:33:07.930658+02:00",
+      "transactionAmount": {
+        "currency": "EUR",
+        "amount": -1.00
+      },
+      "creditorName": "redacted7",
+      "creditorAccount": {
+        "type": "IBAN",
+        "value": "redacted15"
+      },
+      "debtorName": "redacted4",
+      "debtorAccount": {
+        "type": "IBAN",
+        "value": "redacted12"
+      },
+      "remittanceInformationUnstructured": "",
+      "transactionIdGenerated": false
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": null,
+    "externalId": "287360870",
+    "dateTime": "2020-04-22T17:02:16.628311+02:00",
+    "amount": 25.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "redacted10",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "transactionId": "287360870",
+      "bookingDate": "2020-04-22T17:02:16.628311+02:00",
+      "transactionAmount": {
+        "currency": "EUR",
+        "amount": 25.00
+      },
+      "creditorName": "redacted8",
+      "creditorAccount": {
+        "type": "IBAN",
+        "value": "redacted12"
+      },
+      "debtorName": "redacted9",
+      "debtorAccount": {
+        "type": "IBAN",
+        "value": "redacted15"
+      },
+      "remittanceInformationUnstructured": "redacted10",
+      "transactionIdGenerated": false
+    },
+    "bankSpecific": null
+  }
+]

@@ -1,0 +1,1 @@
+alter table transaction_cycles_v2 add expired boolean;

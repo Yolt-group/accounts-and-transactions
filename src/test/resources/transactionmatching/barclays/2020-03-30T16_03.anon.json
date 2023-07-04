@@ -1,0 +1,5888 @@
+[
+  {
+    "transactionId": "260681c2-1d7a-37eb-874c-b473c9fe0aa5",
+    "externalId": null,
+    "dateTime": "2020-03-29T12:29:24+01:00",
+    "amount": 1.00,
+    "status": "PENDING",
+    "type": "DEBIT",
+    "description": "FABgApRy+tMr395PuepBFXF9dbRoCTRSCoATZtqvWjU=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "PENDING",
+      "bookingDate": "2020-03-29T12:29:24+01:00",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -1.00
+      },
+      "remittanceInformationUnstructured": "FABgApRy+tMr395PuepBFXF9dbRoCTRSCoATZtqvWjU=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "367f9f1b-6f74-3a85-942b-3aed9836e521",
+    "externalId": null,
+    "dateTime": "2020-03-30T09:13:25+01:00",
+    "amount": 15.37,
+    "status": "PENDING",
+    "type": "DEBIT",
+    "description": "jvhekVxrFa7MKw9YAOLhPLYoqJGAqtcNHhKAKWLUpQ8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "PENDING",
+      "bookingDate": "2020-03-30T09:13:25+01:00",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -15.37
+      },
+      "remittanceInformationUnstructured": "jvhekVxrFa7MKw9YAOLhPLYoqJGAqtcNHhKAKWLUpQ8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "c6622c3b-6b09-3b2a-a8e3-853327ad1411",
+    "externalId": null,
+    "dateTime": "2020-03-30T10:01:39+01:00",
+    "amount": 109.73,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "8+1H2jRWsfeG+SS7HRr4o51aqO8b/j7lWykyGiiDNZk=",
+    "category": "General",
+    "merchant": "nd7REQi5vV4AYXoi38+10ucZv+R7CsBqgeRAPElaWNg=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-30T10:01:39+01:00",
+      "valueDate": "2020-03-30T01:00:00+01:00",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -109.73
+      },
+      "remittanceInformationUnstructured": "8+1H2jRWsfeG+SS7HRr4o51aqO8b/j7lWykyGiiDNZk=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "752ed6a6-6cec-3e74-ac4f-79a2e15ce36e",
+    "externalId": null,
+    "dateTime": "2020-03-30T05:46:26+01:00",
+    "amount": 35.93,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "GsN30SRoTgwaDAb9UkFhpaxoy6rajZoxtuL6B/n+v/I=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-30T05:46:26+01:00",
+      "valueDate": "2020-03-30T01:00:00+01:00",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 35.93
+      },
+      "remittanceInformationUnstructured": "GsN30SRoTgwaDAb9UkFhpaxoy6rajZoxtuL6B/n+v/I=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "92098647-5331-34a8-8697-b4e00637ee1c",
+    "externalId": null,
+    "dateTime": "2020-03-29T12:27:11+01:00",
+    "amount": 110.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-29T12:27:11+01:00",
+      "valueDate": "2020-03-30T01:00:00+01:00",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 110.00
+      },
+      "remittanceInformationUnstructured": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "87deeb4d-5156-33ae-923b-199c937d0fab",
+    "externalId": null,
+    "dateTime": "2020-03-26T14:11:59Z",
+    "amount": 40.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-26T14:11:59Z",
+      "valueDate": "2020-03-26T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -40.00
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "fb6dce59-1c9f-390c-bdfb-d537474eb35b",
+    "externalId": null,
+    "dateTime": "2020-03-26T14:11:34Z",
+    "amount": 40.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-26T14:11:34Z",
+      "valueDate": "2020-03-26T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 40.00
+      },
+      "remittanceInformationUnstructured": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "fa556bfd-f344-3764-9277-b4140a83d8a6",
+    "externalId": null,
+    "dateTime": "2020-03-25T12:09:33Z",
+    "amount": 85.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "nWis7vnvV7D/Y2eDeQ6lDt+pSORk/5ad5ADTbdpE5C8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-25T12:09:33Z",
+      "valueDate": "2020-03-25T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -85.00
+      },
+      "remittanceInformationUnstructured": "nWis7vnvV7D/Y2eDeQ6lDt+pSORk/5ad5ADTbdpE5C8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "477c9fdc-d569-309a-8fcc-d273f4d45e13",
+    "externalId": null,
+    "dateTime": "2020-03-24T10:10:46Z",
+    "amount": 45.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "WoZFgQXvtXB+cDGtuxAWVoyEWLXNAJw87w8p+gty3sc=",
+    "category": "General",
+    "merchant": "m/2ob7UPU19YYecnVCest0FGZqtlUt/NBgDPtyY42cA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-24T10:10:46Z",
+      "valueDate": "2020-03-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -45.00
+      },
+      "remittanceInformationUnstructured": "WoZFgQXvtXB+cDGtuxAWVoyEWLXNAJw87w8p+gty3sc=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "415bb3ef-4b1a-3b0f-87b2-1ff047712005",
+    "externalId": null,
+    "dateTime": "2020-03-24T10:10:46Z",
+    "amount": 65.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "kfkhgfiKhS0rp4ImiQUauWgfICVrM5+dBaF0P+HzhiY=",
+    "category": "General",
+    "merchant": "kZRviOCh3c/fturIHwFLankzzqk6PZRefbA3n4PVmM8=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-24T10:10:46Z",
+      "valueDate": "2020-03-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -65.00
+      },
+      "remittanceInformationUnstructured": "kfkhgfiKhS0rp4ImiQUauWgfICVrM5+dBaF0P+HzhiY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "ac70508f-30a9-3d56-8d27-c2ebcab9fa1c",
+    "externalId": null,
+    "dateTime": "2020-03-23T16:17:24Z",
+    "amount": 35.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "cfRFJ4VGwhtMJkXf6jkOpXZA28I8RThkMsAP+01KxWs=",
+    "category": "General",
+    "merchant": "nekQagwQVgdGuG9ONNYZUgM7hw4Hj4QuUI2UmXYjiuE=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-23T16:17:24Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -35.00
+      },
+      "remittanceInformationUnstructured": "cfRFJ4VGwhtMJkXf6jkOpXZA28I8RThkMsAP+01KxWs=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "cbf8bb51-fdb2-3e56-a172-5defa32ea749",
+    "externalId": null,
+    "dateTime": "2020-03-23T10:21:27Z",
+    "amount": 60.79,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "4w5KBKO8jkpGH1vt9rMEviwJFvRWGJ5wmio0MMlCYIk=",
+    "category": "General",
+    "merchant": "i0oQaU/3wqow6kQiQbd+jowC6mV0PYSUGl18A4dXZAo=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-23T10:21:27Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 60.79
+      },
+      "remittanceInformationUnstructured": "4w5KBKO8jkpGH1vt9rMEviwJFvRWGJ5wmio0MMlCYIk=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "501a5868-d350-3a9b-8d8e-0fa6ac5e0a20",
+    "externalId": null,
+    "dateTime": "2020-03-23T10:21:27Z",
+    "amount": 23.50,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "6fs5MrojG6mHWdzGTUcroCpVjBDnga8fzwl1Yk7fL7A=",
+    "category": "General",
+    "merchant": "oN6NKKQRjntr4sq8TvyRJZGHiUX++uIQJnsq4haYMPk=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-23T10:21:27Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -23.50
+      },
+      "remittanceInformationUnstructured": "6fs5MrojG6mHWdzGTUcroCpVjBDnga8fzwl1Yk7fL7A=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "d5683d54-6882-3777-9d2a-e08244bccc6d",
+    "externalId": null,
+    "dateTime": "2020-03-23T10:21:27Z",
+    "amount": 3.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "A+FXWmhwecIYCz+q/GC4yB6yASNxrqFRE0P5vdgLSXk=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-23T10:21:27Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -3.00
+      },
+      "remittanceInformationUnstructured": "A+FXWmhwecIYCz+q/GC4yB6yASNxrqFRE0P5vdgLSXk=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "6330af05-819e-3289-959b-7bb83c7cfb90",
+    "externalId": null,
+    "dateTime": "2020-03-23T10:21:27Z",
+    "amount": 36.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "T4mI5exHe58QZZXixc9eNlvbCheH0t29Jgqz42/E1l4=",
+    "category": "General",
+    "merchant": "m/2ob7UPU19YYecnVCest0FGZqtlUt/NBgDPtyY42cA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-23T10:21:27Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -36.00
+      },
+      "remittanceInformationUnstructured": "T4mI5exHe58QZZXixc9eNlvbCheH0t29Jgqz42/E1l4=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "94a965e1-4dbb-37d1-a926-6202a7eac76b",
+    "externalId": null,
+    "dateTime": "2020-03-23T10:21:27Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "T4mI5exHe58QZZXixc9eNlvbCheH0t29Jgqz42/E1l4=",
+    "category": "General",
+    "merchant": "m/2ob7UPU19YYecnVCest0FGZqtlUt/NBgDPtyY42cA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-23T10:21:27Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "T4mI5exHe58QZZXixc9eNlvbCheH0t29Jgqz42/E1l4=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "1166be65-615e-30f7-adc2-d5733e4bbffd",
+    "externalId": null,
+    "dateTime": "2020-03-23T10:21:27Z",
+    "amount": 3.80,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "NI+tEa//FWvoIvrcy4sAVeXqrNJdYDLVZ6G8dLQoCfU=",
+    "category": "General",
+    "merchant": "15gME15Wy2Q/T/GlIv13DRPtlGScRjFL0QLmPaMJK2s=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-23T10:21:27Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -3.80
+      },
+      "remittanceInformationUnstructured": "NI+tEa//FWvoIvrcy4sAVeXqrNJdYDLVZ6G8dLQoCfU=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "504ad224-6bba-3976-9648-f18d398b9dbd",
+    "externalId": null,
+    "dateTime": "2020-03-23T10:21:27Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "mUip4I+oQ90wwtn+CdOHTddl0K8bSRVAQPODHezddQs=",
+    "category": "General",
+    "merchant": "mdKown4pOEALitwCcsIieWb3MIqCq4dc1OFNloMoa0A=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-23T10:21:27Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "mUip4I+oQ90wwtn+CdOHTddl0K8bSRVAQPODHezddQs=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "a73f5818-30ed-368a-b35f-91bdca8cfa45",
+    "externalId": null,
+    "dateTime": "2020-03-23T10:21:27Z",
+    "amount": 16.34,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "OjEXdp7xgSXYAvehqqfYynzKk59858Lw+AgEuZMwtgQ=",
+    "category": "General",
+    "merchant": "BkWOeI84+lxd6g7jLk2cIRNfpXJTSk00iKLMP9jw0iI=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-23T10:21:27Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -16.34
+      },
+      "remittanceInformationUnstructured": "OjEXdp7xgSXYAvehqqfYynzKk59858Lw+AgEuZMwtgQ=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "45bf760d-3ba1-3446-bd54-43610e2e74ed",
+    "externalId": null,
+    "dateTime": "2020-03-23T06:11:50Z",
+    "amount": 19.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "GsN30SRoTgwaDAb9UkFhpaxoy6rajZoxtuL6B/n+v/I=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-23T06:11:50Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 19.00
+      },
+      "remittanceInformationUnstructured": "GsN30SRoTgwaDAb9UkFhpaxoy6rajZoxtuL6B/n+v/I=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "930befb7-fc91-39ff-b289-657476e2648d",
+    "externalId": null,
+    "dateTime": "2020-03-22T20:30:57Z",
+    "amount": 8.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T20:30:57Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 8.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "b37e50f7-12dc-3585-889a-5dee3c628622",
+    "externalId": null,
+    "dateTime": "2020-03-22T20:27:21Z",
+    "amount": 80.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "Zxa1umnkIggJeXQRC+De2AujSXy8MD9ot/rLoK/kw60=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T20:27:21Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -80.00
+      },
+      "remittanceInformationUnstructured": "Zxa1umnkIggJeXQRC+De2AujSXy8MD9ot/rLoK/kw60=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "76e5bef8-367b-3a7e-8335-b54cff1f28b9",
+    "externalId": null,
+    "dateTime": "2020-03-22T20:25:45Z",
+    "amount": 85.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T20:25:45Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 85.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "83374f33-3fab-33b8-97b1-5d2edab86882",
+    "externalId": null,
+    "dateTime": "2020-03-22T20:10:29Z",
+    "amount": 65.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T20:10:29Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 65.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "cb3b1407-fa56-309b-9864-9642534f29cd",
+    "externalId": null,
+    "dateTime": "2020-03-22T18:59:44Z",
+    "amount": 37.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T18:59:44Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 37.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "fe5de043-7276-3032-998a-c33b96f695b6",
+    "externalId": null,
+    "dateTime": "2020-03-22T15:43:21Z",
+    "amount": 45.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T15:43:21Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 45.00
+      },
+      "remittanceInformationUnstructured": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "7223db73-487f-3a13-a34c-1a0090698031",
+    "externalId": null,
+    "dateTime": "2020-03-22T15:08:06Z",
+    "amount": 3.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T15:08:06Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 3.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "9e208b7a-a066-3c88-adea-8b9eeecc7d5e",
+    "externalId": null,
+    "dateTime": "2020-03-22T13:13:07Z",
+    "amount": 35.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T13:13:07Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -35.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "7e95855b-b593-3d87-bdb3-ee2aeea9991a",
+    "externalId": null,
+    "dateTime": "2020-03-22T13:11:43Z",
+    "amount": 150.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T13:11:43Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -150.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "9d8581d2-1727-3511-9607-23bb1186eef8",
+    "externalId": null,
+    "dateTime": "2020-03-22T13:09:48Z",
+    "amount": 150.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "nVU4qFKvxNPsrtj7qs2uOMSIU8Xvh4klSc7vswRzPPU=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T13:09:48Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 150.00
+      },
+      "remittanceInformationUnstructured": "nVU4qFKvxNPsrtj7qs2uOMSIU8Xvh4klSc7vswRzPPU=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "da4c614b-3fe4-32f1-baa2-afb12bd7221b",
+    "externalId": null,
+    "dateTime": "2020-03-22T10:16:18Z",
+    "amount": 45.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "EPy4riCReVA2dPuMXfS6DY9uk3vap06ivKnOI4WiZNw=",
+    "category": "General",
+    "merchant": "owiil8A7x3kQZl5SkhO3I3N2pVnnkLaa+1naMFxZix0=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T10:16:18Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 45.00
+      },
+      "remittanceInformationUnstructured": "EPy4riCReVA2dPuMXfS6DY9uk3vap06ivKnOI4WiZNw=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "4da7b9a8-18e0-3a40-a446-86b006ea7d9a",
+    "externalId": null,
+    "dateTime": "2020-03-22T10:16:18Z",
+    "amount": 82.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "3+ykJ645VSNPS5UwcaQhB2DmDjtJJ7GhI5nUZwWUqAk=",
+    "category": "General",
+    "merchant": "i0oQaU/3wqow6kQiQbd+jowC6mV0PYSUGl18A4dXZAo=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T10:16:18Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -82.00
+      },
+      "remittanceInformationUnstructured": "3+ykJ645VSNPS5UwcaQhB2DmDjtJJ7GhI5nUZwWUqAk=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "5584788b-94e6-3c27-abea-9872efd0927d",
+    "externalId": null,
+    "dateTime": "2020-03-22T10:16:18Z",
+    "amount": 105.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "Sq9YXU6ZvJYbcSt0OVF0lO6KTC/y8NalTm9Zy1Po3v0=",
+    "category": "General",
+    "merchant": "owiil8A7x3kQZl5SkhO3I3N2pVnnkLaa+1naMFxZix0=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T10:16:18Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -105.00
+      },
+      "remittanceInformationUnstructured": "Sq9YXU6ZvJYbcSt0OVF0lO6KTC/y8NalTm9Zy1Po3v0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "db9b5601-6dd6-348e-8e33-45aaa9b136ed",
+    "externalId": null,
+    "dateTime": "2020-03-22T10:16:18Z",
+    "amount": 144.88,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "58+bICqEzGkHY1LzA8CoD2acZ8oJXUbqmSn9FHbU0io=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T10:16:18Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -144.88
+      },
+      "remittanceInformationUnstructured": "58+bICqEzGkHY1LzA8CoD2acZ8oJXUbqmSn9FHbU0io=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "0c4e1b78-f5fb-3172-872d-30499b9fc5b5",
+    "externalId": null,
+    "dateTime": "2020-03-22T10:16:18Z",
+    "amount": 24.80,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "4KI0NGUF7hDbPoqZQaMP4XH3C6ahmWdQayN6zY28iPM=",
+    "category": "General",
+    "merchant": "n3yXSPTf667nLz+e4G45MfJWmGF0LepU0f+anpY4/Yw=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T10:16:18Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -24.80
+      },
+      "remittanceInformationUnstructured": "4KI0NGUF7hDbPoqZQaMP4XH3C6ahmWdQayN6zY28iPM=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "674fa2f4-fa86-338d-b360-7ba51693d200",
+    "externalId": null,
+    "dateTime": "2020-03-22T08:00:56Z",
+    "amount": 89.14,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "p0mASgP4Fz6Ud6VHPMHxwJiP1jspXZWQBXkvwzGG6UY=",
+    "category": "General",
+    "merchant": "XPLlKVFpTBeUnSqoZfoTfQGsk4//LM4i12ktkMD6eJg=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T08:00:56Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -89.14
+      },
+      "remittanceInformationUnstructured": "p0mASgP4Fz6Ud6VHPMHxwJiP1jspXZWQBXkvwzGG6UY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "0e38a45c-f952-3928-8ca1-2e956527f4e4",
+    "externalId": null,
+    "dateTime": "2020-03-22T08:00:56Z",
+    "amount": 4.99,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "8Za1IgYSlWeaEqBRFMnzR8Y4y0bRW/DAnMNS3xmxaXQ=",
+    "category": "General",
+    "merchant": "TelZ3imh3cWY6hrPZuC26kaC45l/UChKXlBpK1Dyed8=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T08:00:56Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -4.99
+      },
+      "remittanceInformationUnstructured": "8Za1IgYSlWeaEqBRFMnzR8Y4y0bRW/DAnMNS3xmxaXQ=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "8aa5c02c-ac66-3b6a-be79-47d9a56c5407",
+    "externalId": null,
+    "dateTime": "2020-03-22T08:00:56Z",
+    "amount": 2.49,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "8Za1IgYSlWeaEqBRFMnzR8Y4y0bRW/DAnMNS3xmxaXQ=",
+    "category": "General",
+    "merchant": "TelZ3imh3cWY6hrPZuC26kaC45l/UChKXlBpK1Dyed8=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-22T08:00:56Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -2.49
+      },
+      "remittanceInformationUnstructured": "8Za1IgYSlWeaEqBRFMnzR8Y4y0bRW/DAnMNS3xmxaXQ=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "6da4bea8-d700-386f-9d9e-ece4d4d568a7",
+    "externalId": null,
+    "dateTime": "2020-03-21T23:19:58Z",
+    "amount": 17.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T23:19:58Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -17.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "2468d0a1-e775-335c-b694-fdbd39226976",
+    "externalId": null,
+    "dateTime": "2020-03-21T19:02:12Z",
+    "amount": 27.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "zheuJ6wmHTdKF+7WOh0zCjrZCe8jBkmBuCZHfXjUgSg=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T19:02:12Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 27.00
+      },
+      "remittanceInformationUnstructured": "zheuJ6wmHTdKF+7WOh0zCjrZCe8jBkmBuCZHfXjUgSg=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "feec4635-1ad0-380f-91a0-0bf26aa65eee",
+    "externalId": null,
+    "dateTime": "2020-03-21T18:45:32Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T18:45:32Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "df087fb9-ae99-3057-bdc5-2efa39a0f06d",
+    "externalId": null,
+    "dateTime": "2020-03-21T18:45:09Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T18:45:09Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 5.00
+      },
+      "remittanceInformationUnstructured": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "ed176631-68ce-3ee1-a372-37aac5c8e386",
+    "externalId": null,
+    "dateTime": "2020-03-21T18:31:28Z",
+    "amount": 30.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T18:31:28Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -30.00
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "741a6180-6f8d-3918-8543-16a4444eb33c",
+    "externalId": null,
+    "dateTime": "2020-03-21T18:31:08Z",
+    "amount": 30.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T18:31:08Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 30.00
+      },
+      "remittanceInformationUnstructured": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "452fda65-edf9-307e-82d2-a03334210382",
+    "externalId": null,
+    "dateTime": "2020-03-21T17:59:14Z",
+    "amount": 71.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T17:59:14Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -71.00
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "01fe643b-ef7c-3592-9875-9ff3a598d062",
+    "externalId": null,
+    "dateTime": "2020-03-21T17:58:57Z",
+    "amount": 71.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T17:58:57Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 71.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "8e03b5c6-7554-3e78-b3b9-544ebba04538",
+    "externalId": null,
+    "dateTime": "2020-03-21T17:02:19Z",
+    "amount": 111.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T17:02:19Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -111.00
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "22b9fd16-8322-3523-b2c6-b9ea8a27f3b3",
+    "externalId": null,
+    "dateTime": "2020-03-21T16:59:25Z",
+    "amount": 111.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T16:59:25Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 111.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "140a8499-599d-35d5-99dd-b06c32f6031f",
+    "externalId": null,
+    "dateTime": "2020-03-21T16:58:59Z",
+    "amount": 111.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T16:58:59Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -111.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "98cf8a3c-e774-3910-a624-36b1234a7176",
+    "externalId": null,
+    "dateTime": "2020-03-21T16:57:17Z",
+    "amount": 111.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T16:57:17Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 111.00
+      },
+      "remittanceInformationUnstructured": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "e120fcc9-765e-32ea-aa06-478ec0205c22",
+    "externalId": null,
+    "dateTime": "2020-03-21T16:36:45Z",
+    "amount": 82.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T16:36:45Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 82.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "2df2cefc-b2fe-3836-9e4b-0d4cb3ca1568",
+    "externalId": null,
+    "dateTime": "2020-03-21T15:56:14Z",
+    "amount": 105.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T15:56:14Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 105.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "329b08b4-9d27-3d78-919f-803e2dead5b7",
+    "externalId": null,
+    "dateTime": "2020-03-21T15:12:12Z",
+    "amount": 4.58,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T15:12:12Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 4.58
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "5db332db-1fd9-3de0-981f-63c5c426ed74",
+    "externalId": null,
+    "dateTime": "2020-03-21T15:09:10Z",
+    "amount": 36.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T15:09:10Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 36.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "4ac514a4-29dc-3f9e-82ed-7fa62dfe27ae",
+    "externalId": null,
+    "dateTime": "2020-03-21T14:02:43Z",
+    "amount": 23.50,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T14:02:43Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 23.50
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "6c6072f1-2aec-33c6-8ee5-4769d3de9b9f",
+    "externalId": null,
+    "dateTime": "2020-03-21T13:51:55Z",
+    "amount": 144.88,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T13:51:55Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 144.88
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "50caf39c-bc50-39e3-82dc-af2316388537",
+    "externalId": null,
+    "dateTime": "2020-03-21T10:39:41Z",
+    "amount": 7.30,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "Pc/shjELCm2RVNY6W+QdVvOalmp5iIKb/DhKQ/NNla4=",
+    "category": "General",
+    "merchant": "n3yXSPTf667nLz+e4G45MfJWmGF0LepU0f+anpY4/Yw=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T10:39:41Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -7.30
+      },
+      "remittanceInformationUnstructured": "Pc/shjELCm2RVNY6W+QdVvOalmp5iIKb/DhKQ/NNla4=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "f9691392-9cdc-3a34-b825-3733dda238b6",
+    "externalId": null,
+    "dateTime": "2020-03-21T10:39:41Z",
+    "amount": 6.50,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "Pc/shjELCm2RVNY6W+QdVvOalmp5iIKb/DhKQ/NNla4=",
+    "category": "General",
+    "merchant": "n3yXSPTf667nLz+e4G45MfJWmGF0LepU0f+anpY4/Yw=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-21T10:39:41Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -6.50
+      },
+      "remittanceInformationUnstructured": "Pc/shjELCm2RVNY6W+QdVvOalmp5iIKb/DhKQ/NNla4=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "2e81ea1f-ddac-3f17-9d93-79dec14328fe",
+    "externalId": null,
+    "dateTime": "2020-03-20T22:57:41Z",
+    "amount": 40.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "tKeto6c3Frwfevd/jtVom4dB2uQUzGGPN5fDdNIRgaU=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-20T22:57:41Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -40.00
+      },
+      "remittanceInformationUnstructured": "tKeto6c3Frwfevd/jtVom4dB2uQUzGGPN5fDdNIRgaU=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "872fd493-f0a5-37d4-9a8b-ff724e07f2c5",
+    "externalId": null,
+    "dateTime": "2020-03-20T22:57:11Z",
+    "amount": 40.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-20T22:57:11Z",
+      "valueDate": "2020-03-23T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 40.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "b8ce9bab-f7d9-35f1-8533-ce37dfe9d03b",
+    "externalId": null,
+    "dateTime": "2020-03-20T13:50:37Z",
+    "amount": 24.80,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-20T13:50:37Z",
+      "valueDate": "2020-03-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 24.80
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "ddcb6bba-5bec-3efa-9bcc-2df60e95d8fb",
+    "externalId": null,
+    "dateTime": "2020-03-20T13:10:37Z",
+    "amount": 3.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-20T13:10:37Z",
+      "valueDate": "2020-03-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 3.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "25a610a6-dc25-3065-aba8-c3f1d8b614db",
+    "externalId": null,
+    "dateTime": "2020-03-20T13:07:12Z",
+    "amount": 85.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-20T13:07:12Z",
+      "valueDate": "2020-03-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 85.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "9156882c-8f71-3e76-b097-84d9d3fb2510",
+    "externalId": null,
+    "dateTime": "2020-03-20T11:13:04Z",
+    "amount": 50.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "G+dWN3/wAYw019BOSPe33D9AkMcj1P426NfMT4R/Ixc=",
+    "category": "General",
+    "merchant": "m/2ob7UPU19YYecnVCest0FGZqtlUt/NBgDPtyY42cA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-20T11:13:04Z",
+      "valueDate": "2020-03-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -50.00
+      },
+      "remittanceInformationUnstructured": "G+dWN3/wAYw019BOSPe33D9AkMcj1P426NfMT4R/Ixc=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "50383f7e-523c-3883-b16c-3fd20937a60c",
+    "externalId": null,
+    "dateTime": "2020-03-20T11:13:04Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "KAFVN7+ZsSEgjedqtu5U1A6sFC9IGSbBe6npavdMYtU=",
+    "category": "General",
+    "merchant": "mdKown4pOEALitwCcsIieWb3MIqCq4dc1OFNloMoa0A=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-20T11:13:04Z",
+      "valueDate": "2020-03-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "KAFVN7+ZsSEgjedqtu5U1A6sFC9IGSbBe6npavdMYtU=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "26fedce3-1544-3f5d-94b7-f6821ccf5e1c",
+    "externalId": null,
+    "dateTime": "2020-03-19T17:02:42Z",
+    "amount": 4.50,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-19T17:02:42Z",
+      "valueDate": "2020-03-19T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 4.50
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "26355045-fe1c-3897-a886-961a81ad6181",
+    "externalId": null,
+    "dateTime": "2020-03-19T17:01:54Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-19T17:01:54Z",
+      "valueDate": "2020-03-19T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 5.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "c06f00db-1723-316c-a384-b448f0d187b7",
+    "externalId": null,
+    "dateTime": "2020-03-19T15:18:52Z",
+    "amount": 7.30,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-19T15:18:52Z",
+      "valueDate": "2020-03-19T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 7.30
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "0fab3db4-355d-3afc-8d35-4c9eeda13f58",
+    "externalId": null,
+    "dateTime": "2020-03-19T12:53:02Z",
+    "amount": 4.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-19T12:53:02Z",
+      "valueDate": "2020-03-19T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -4.00
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "98b9dace-f871-3cd8-b4bb-9935f14ebeb5",
+    "externalId": null,
+    "dateTime": "2020-03-19T12:52:31Z",
+    "amount": 4.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-19T12:52:31Z",
+      "valueDate": "2020-03-19T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 4.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "b7544615-3311-3d63-af04-9958e8175353",
+    "externalId": null,
+    "dateTime": "2020-03-19T11:04:10Z",
+    "amount": 10.25,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "qNDzVbvBy8Jb4OA8qwfa03zJrlrQW5WWuvLUlX8TU9Q=",
+    "category": "General",
+    "merchant": "lXyB4QoY3wemZDsspCC5RHd+o2Xb1zDjH4HEZrScFK4=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-19T11:04:10Z",
+      "valueDate": "2020-03-19T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.25
+      },
+      "remittanceInformationUnstructured": "qNDzVbvBy8Jb4OA8qwfa03zJrlrQW5WWuvLUlX8TU9Q=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "445e29a8-47b1-3064-b4d6-5fa4005a7761",
+    "externalId": null,
+    "dateTime": "2020-03-19T11:04:10Z",
+    "amount": 4.08,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "3XyegIltlse7fO8tFQ31KxT2bD/TQmZMQF8+4+qX07E=",
+    "category": "General",
+    "merchant": "meqLk7cBEziOSv1/dlTIPmdXmp1A12ADbXjeDtmmNdY=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-19T11:04:10Z",
+      "valueDate": "2020-03-19T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -4.08
+      },
+      "remittanceInformationUnstructured": "3XyegIltlse7fO8tFQ31KxT2bD/TQmZMQF8+4+qX07E=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "65729bb7-450c-3c3e-a4be-d58b7a1c8e65",
+    "externalId": null,
+    "dateTime": "2020-03-19T06:24:09Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-19T06:24:09Z",
+      "valueDate": "2020-03-19T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "2963ee51-4d45-3f80-be06-1e337cee4053",
+    "externalId": null,
+    "dateTime": "2020-03-19T00:28:03Z",
+    "amount": 6.50,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-19T00:28:03Z",
+      "valueDate": "2020-03-19T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 6.50
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "e791c431-59c4-3627-9ea8-8b54a74de543",
+    "externalId": null,
+    "dateTime": "2020-03-18T21:37:51Z",
+    "amount": 4.08,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T21:37:51Z",
+      "valueDate": "2020-03-19T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 4.08
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "f2e6222d-a34d-3565-8646-0887772f93c0",
+    "externalId": null,
+    "dateTime": "2020-03-18T20:25:52Z",
+    "amount": 50.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T20:25:52Z",
+      "valueDate": "2020-03-19T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 50.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "bcf1b86e-1c47-33ac-bde2-273ce9dbf9b3",
+    "externalId": null,
+    "dateTime": "2020-03-18T17:04:11Z",
+    "amount": 100.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "W/zSqYMEyL1gOJCwBFcdD4Te5gi27UF4qgnxjaR0tmI=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T17:04:11Z",
+      "valueDate": "2020-03-18T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -100.00
+      },
+      "remittanceInformationUnstructured": "W/zSqYMEyL1gOJCwBFcdD4Te5gi27UF4qgnxjaR0tmI=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "170db9b3-f16e-361c-9d35-fcf6c71cb9de",
+    "externalId": null,
+    "dateTime": "2020-03-18T16:59:20Z",
+    "amount": 200.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "UdBI3yWhw4sVKZu/U6yHOnoPEraqWco3bIQjNLgbQBQ=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T16:59:20Z",
+      "valueDate": "2020-03-18T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -200.00
+      },
+      "remittanceInformationUnstructured": "UdBI3yWhw4sVKZu/U6yHOnoPEraqWco3bIQjNLgbQBQ=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "a040f8b4-590e-3cca-a9b5-74d967401d0f",
+    "externalId": null,
+    "dateTime": "2020-03-18T16:53:07Z",
+    "amount": 300.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T16:53:07Z",
+      "valueDate": "2020-03-18T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 300.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "7dbdc256-3817-3997-bcba-16ae9cdee97e",
+    "externalId": null,
+    "dateTime": "2020-03-18T16:42:41Z",
+    "amount": 0.15,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T16:42:41Z",
+      "valueDate": "2020-03-18T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 0.15
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "8237820e-f30e-33a0-8985-0afef3f68fbc",
+    "externalId": null,
+    "dateTime": "2020-03-18T16:42:11Z",
+    "amount": 9.40,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T16:42:11Z",
+      "valueDate": "2020-03-18T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 9.40
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "f51d9174-cba8-3640-bc79-bc3a65784302",
+    "externalId": null,
+    "dateTime": "2020-03-18T10:48:58Z",
+    "amount": 3.80,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "8uGfRLy4u6CHV2WZy7ud0FBJYC0w9KFa+Fiv1bdbfho=",
+    "category": "General",
+    "merchant": "15gME15Wy2Q/T/GlIv13DRPtlGScRjFL0QLmPaMJK2s=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T10:48:58Z",
+      "valueDate": "2020-03-18T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -3.80
+      },
+      "remittanceInformationUnstructured": "8uGfRLy4u6CHV2WZy7ud0FBJYC0w9KFa+Fiv1bdbfho=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "829dc91a-6917-3ce1-829b-987346684d27",
+    "externalId": null,
+    "dateTime": "2020-03-18T10:48:58Z",
+    "amount": 10.25,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "h7uTLuWcmH3eSLd+h3azao7Qr91rDtlEmgF3eS8X8aM=",
+    "category": "General",
+    "merchant": "lXyB4QoY3wemZDsspCC5RHd+o2Xb1zDjH4HEZrScFK4=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T10:48:58Z",
+      "valueDate": "2020-03-18T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.25
+      },
+      "remittanceInformationUnstructured": "h7uTLuWcmH3eSLd+h3azao7Qr91rDtlEmgF3eS8X8aM=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "5e420676-e3a1-39b2-9a9f-c777369d50bd",
+    "externalId": null,
+    "dateTime": "2020-03-18T10:48:58Z",
+    "amount": 8.49,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "oLXR8XFB8sDpS4pam2jBmqZrpcXnZ0YV6ZPWIxAghCc=",
+    "category": "General",
+    "merchant": "UGXekJkYPuQ/P30GMeWHvYP5FReFMNQXY/UP6cADkzg=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T10:48:58Z",
+      "valueDate": "2020-03-18T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -8.49
+      },
+      "remittanceInformationUnstructured": "oLXR8XFB8sDpS4pam2jBmqZrpcXnZ0YV6ZPWIxAghCc=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "720fd391-d1b8-3077-887b-87eb742b9952",
+    "externalId": null,
+    "dateTime": "2020-03-18T10:48:58Z",
+    "amount": 39.52,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "gjmVd3OI8WNrPeu4keeF+r238OloZ1veGtQ8xuJ69tc=",
+    "category": "General",
+    "merchant": "nd7REQi5vV4AYXoi38+10ucZv+R7CsBqgeRAPElaWNg=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T10:48:58Z",
+      "valueDate": "2020-03-18T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -39.52
+      },
+      "remittanceInformationUnstructured": "gjmVd3OI8WNrPeu4keeF+r238OloZ1veGtQ8xuJ69tc=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "7ab9a345-0dc1-3b41-85f9-11044123d1de",
+    "externalId": null,
+    "dateTime": "2020-03-18T10:48:58Z",
+    "amount": 19.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "ZsAXZ1vX/0g9gdD/ykuLl11nwyjYeGKkFzurNnP+Pt8=",
+    "category": "General",
+    "merchant": "n3yXSPTf667nLz+e4G45MfJWmGF0LepU0f+anpY4/Yw=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-18T10:48:58Z",
+      "valueDate": "2020-03-18T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -19.00
+      },
+      "remittanceInformationUnstructured": "ZsAXZ1vX/0g9gdD/ykuLl11nwyjYeGKkFzurNnP+Pt8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "850f6f62-369d-3ed3-b671-bf3c81f3dec3",
+    "externalId": null,
+    "dateTime": "2020-03-17T17:37:18Z",
+    "amount": 408.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-17T17:37:18Z",
+      "valueDate": "2020-03-17T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -408.00
+      },
+      "remittanceInformationUnstructured": "LXWLK1Q2KhAIdS00Tpj8tydxY2knd+1hEjGT8OfyY8Q=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "e98053ac-fa5c-310e-a169-db314e23fbe7",
+    "externalId": null,
+    "dateTime": "2020-03-17T17:27:30Z",
+    "amount": 408.62,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "82/sI0aMlISlU5BYFlEgKrmIp0fA2breniZvJmTBFrI=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-17T17:27:30Z",
+      "valueDate": "2020-03-17T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 408.62
+      },
+      "remittanceInformationUnstructured": "82/sI0aMlISlU5BYFlEgKrmIp0fA2breniZvJmTBFrI=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "1e7ed19b-dc1f-3960-8994-29b4991deb0e",
+    "externalId": null,
+    "dateTime": "2020-03-17T15:20:58Z",
+    "amount": 39.60,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-17T15:20:58Z",
+      "valueDate": "2020-03-17T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 39.60
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "cc4a632b-e438-38ba-ac6e-9540642353ef",
+    "externalId": null,
+    "dateTime": "2020-03-17T14:01:36Z",
+    "amount": 233.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-17T14:01:36Z",
+      "valueDate": "2020-03-17T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -233.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "b3f3d6e3-351e-3536-bd4a-5b12236b479e",
+    "externalId": null,
+    "dateTime": "2020-03-17T13:49:03Z",
+    "amount": 233.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "FeIKY++LliyXr97JdddBszCPf29WuZylk34/wsD0d/8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-17T13:49:03Z",
+      "valueDate": "2020-03-17T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 233.00
+      },
+      "remittanceInformationUnstructured": "FeIKY++LliyXr97JdddBszCPf29WuZylk34/wsD0d/8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "125584e3-1ded-396a-80d8-3a87de0c05f6",
+    "externalId": null,
+    "dateTime": "2020-03-17T13:48:43Z",
+    "amount": 8.49,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-17T13:48:43Z",
+      "valueDate": "2020-03-17T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 8.49
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "8878685b-4bc8-3af2-a59d-abca9e9f4393",
+    "externalId": null,
+    "dateTime": "2020-03-17T13:02:46Z",
+    "amount": 10.25,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-17T13:02:46Z",
+      "valueDate": "2020-03-17T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.25
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "8a51ac31-3a82-37b1-8c64-abfe108c4854",
+    "externalId": null,
+    "dateTime": "2020-03-17T10:57:22Z",
+    "amount": 12.80,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "vMnQuf2f04VSdxK4dKIqJHpxanHtEs8Vz6NAe7aqu7s=",
+    "category": "General",
+    "merchant": "+k5IKrK8NUOTAB52s1LhqFyIPtWXx+mhk/FsmXnJKDY=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-17T10:57:22Z",
+      "valueDate": "2020-03-17T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -12.80
+      },
+      "remittanceInformationUnstructured": "vMnQuf2f04VSdxK4dKIqJHpxanHtEs8Vz6NAe7aqu7s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "3cf91695-c14a-306b-8283-ec3ba8126e5c",
+    "externalId": null,
+    "dateTime": "2020-03-17T02:31:26Z",
+    "amount": 3.80,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-17T02:31:26Z",
+      "valueDate": "2020-03-17T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 3.80
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "348088c4-7a83-39ce-bbd4-eb0cb20ea1f2",
+    "externalId": null,
+    "dateTime": "2020-03-16T22:57:31Z",
+    "amount": 12.80,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T22:57:31Z",
+      "valueDate": "2020-03-17T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 12.80
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "b1b4bd95-e5d2-36b6-9308-24894fe7fbb9",
+    "externalId": null,
+    "dateTime": "2020-03-16T20:02:13Z",
+    "amount": 19.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T20:02:13Z",
+      "valueDate": "2020-03-17T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 19.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "98b725a4-1548-3fd2-82cb-461fd9d98f2c",
+    "externalId": null,
+    "dateTime": "2020-03-16T16:52:38Z",
+    "amount": 1.99,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T16:52:38Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -1.99
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "b8051051-7746-3956-902e-bb8f427d077f",
+    "externalId": null,
+    "dateTime": "2020-03-16T16:52:12Z",
+    "amount": 1.91,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T16:52:12Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 1.91
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "432dcb59-091f-3145-aedc-0c30701a28f4",
+    "externalId": null,
+    "dateTime": "2020-03-16T16:45:49Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T16:45:49Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "6f045924-e300-3ee4-8eb8-a7741697c7ca",
+    "externalId": null,
+    "dateTime": "2020-03-16T16:45:20Z",
+    "amount": 9.30,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T16:45:20Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 9.30
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "d0ea5e76-0c47-3386-a5ac-0dd1b62cd2e4",
+    "externalId": null,
+    "dateTime": "2020-03-16T16:44:56Z",
+    "amount": 0.73,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T16:44:56Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 0.73
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "bccf2fc9-9df7-31b0-abc5-cfe18c3003f7",
+    "externalId": null,
+    "dateTime": "2020-03-16T16:44:38Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T16:44:38Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "0fb457aa-dceb-3c14-a1d0-9c73c86c47cd",
+    "externalId": null,
+    "dateTime": "2020-03-16T16:44:05Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T16:44:05Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "9e66a5b5-940a-323a-9bfa-1d45a4fbbe41",
+    "externalId": null,
+    "dateTime": "2020-03-16T11:09:00Z",
+    "amount": 3.99,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "yqsIYQyJbDcbOfzsQJ7wOl+m7vTsImfqiDrK2cGVFZg=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T11:09:00Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -3.99
+      },
+      "remittanceInformationUnstructured": "yqsIYQyJbDcbOfzsQJ7wOl+m7vTsImfqiDrK2cGVFZg=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "f79be758-388b-3f19-b244-826d69840c4d",
+    "externalId": null,
+    "dateTime": "2020-03-16T11:09:00Z",
+    "amount": 97.91,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "6LIiUIzP832Ie1dPa/E9How5dhe3b779KDczesuUBDw=",
+    "category": "General",
+    "merchant": "Eo4mfdFMdeVwED4HFQSuAyE1hIhew/qZFc6zws5wuC8=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T11:09:00Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -97.91
+      },
+      "remittanceInformationUnstructured": "6LIiUIzP832Ie1dPa/E9How5dhe3b779KDczesuUBDw=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "826be315-a4a6-3c1f-a2a3-b76a16a3a937",
+    "externalId": null,
+    "dateTime": "2020-03-16T11:09:00Z",
+    "amount": 110.95,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "QmO6tZQvZdseGd/kbyl77BxAM9TwB0MNPtFM2aSWNh4=",
+    "category": "General",
+    "merchant": "JA2BBq79zI960vRg/SY4FZeWfZdtUU7P3G5zO6FLHMk=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-16T11:09:00Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -110.95
+      },
+      "remittanceInformationUnstructured": "QmO6tZQvZdseGd/kbyl77BxAM9TwB0MNPtFM2aSWNh4=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "b1f866a2-ea2f-3225-8472-58e22e56e288",
+    "externalId": null,
+    "dateTime": "2020-03-15T14:34:15Z",
+    "amount": 110.95,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-15T14:34:15Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 110.95
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "245791c8-6975-301d-8913-e170ed060410",
+    "externalId": null,
+    "dateTime": "2020-03-15T14:17:45Z",
+    "amount": 97.91,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-15T14:17:45Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 97.91
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "de2207ea-f81c-3fe3-92b9-f322a34e3ea4",
+    "externalId": null,
+    "dateTime": "2020-03-15T12:55:50Z",
+    "amount": 2.99,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-15T12:55:50Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 2.99
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "a6306a87-23b2-3319-b745-716c282078ff",
+    "externalId": null,
+    "dateTime": "2020-03-15T10:58:42Z",
+    "amount": 26.99,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "UsDLlZOIfECQ03RZ6/dvw97QVbV/GLVi1xP1WwiAD6Q=",
+    "category": "General",
+    "merchant": "ioY0/Pi6AdXD2x6Tfc1TeoZP6xrvAtYJ3euZqI1EYBI=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-15T10:58:42Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -26.99
+      },
+      "remittanceInformationUnstructured": "UsDLlZOIfECQ03RZ6/dvw97QVbV/GLVi1xP1WwiAD6Q=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "0b9f1d45-b963-33d6-b6cb-7f365100b993",
+    "externalId": null,
+    "dateTime": "2020-03-15T10:58:42Z",
+    "amount": 32.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "G41AuqQM3u0nfIHmv4EHVHRM7uDc0q8vm4oczYkvCSY=",
+    "category": "General",
+    "merchant": "1L0jPiljBSfv9AhpG+9zxnSUrrEyfLA8thBmU4+i9Cw=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-15T10:58:42Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -32.00
+      },
+      "remittanceInformationUnstructured": "G41AuqQM3u0nfIHmv4EHVHRM7uDc0q8vm4oczYkvCSY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "8c3a2417-86e6-37a2-b09a-37d211637f6c",
+    "externalId": null,
+    "dateTime": "2020-03-15T10:58:42Z",
+    "amount": 0.49,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "7ZB9iQ8iqgarcbDP+me3KAyp5sNz3QzFKXt8ZGWZmJs=",
+    "category": "General",
+    "merchant": "/3ULP8tEzRVAbBmZM5kqBuHoEQAdL51sxAc8FgKUq+M=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-15T10:58:42Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -0.49
+      },
+      "remittanceInformationUnstructured": "7ZB9iQ8iqgarcbDP+me3KAyp5sNz3QzFKXt8ZGWZmJs=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "917486bb-2f78-3ca5-a3d9-8d6ce9bd4155",
+    "externalId": null,
+    "dateTime": "2020-03-15T10:58:42Z",
+    "amount": 104.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "vI+xmpRl7VZqeNsuwOYcoQjAgokE9dLMY67gynN6bi8=",
+    "category": "General",
+    "merchant": "wy4WSa8YBWahuKSJsX+FNTaZIjXhB+f3rk0AurUFrhI=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-15T10:58:42Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -104.00
+      },
+      "remittanceInformationUnstructured": "vI+xmpRl7VZqeNsuwOYcoQjAgokE9dLMY67gynN6bi8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "c38993fd-7668-3a20-b9c3-982f78e85f6b",
+    "externalId": null,
+    "dateTime": "2020-03-15T10:58:42Z",
+    "amount": 82.50,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "8uKCzmEHLsDTgG68HwbvzG7yyyth7twJT1p/ZChUNxQ=",
+    "category": "General",
+    "merchant": "oN6NKKQRjntr4sq8TvyRJZGHiUX++uIQJnsq4haYMPk=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-15T10:58:42Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -82.50
+      },
+      "remittanceInformationUnstructured": "8uKCzmEHLsDTgG68HwbvzG7yyyth7twJT1p/ZChUNxQ=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "c78a898c-6e0f-3528-8a18-1b15a5d51b94",
+    "externalId": null,
+    "dateTime": "2020-03-14T23:17:09Z",
+    "amount": 233.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "xv8/64Zx9uC6nDZSXSXyc6FHpeCq2qMrgA3IEHMVhyM=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-14T23:17:09Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -233.00
+      },
+      "remittanceInformationUnstructured": "xv8/64Zx9uC6nDZSXSXyc6FHpeCq2qMrgA3IEHMVhyM=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "f21560ca-ed8b-3138-bdc1-e7b4eb9317b7",
+    "externalId": null,
+    "dateTime": "2020-03-14T23:15:05Z",
+    "amount": 233.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-14T23:15:05Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 233.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "b69aff2d-3cf6-33c7-b04e-b836e640b4bd",
+    "externalId": null,
+    "dateTime": "2020-03-14T18:47:34Z",
+    "amount": 80.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-14T18:47:34Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 80.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "7639c615-1e57-36fd-a998-52cd138e6be2",
+    "externalId": null,
+    "dateTime": "2020-03-14T18:00:41Z",
+    "amount": 100.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-14T18:00:41Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 100.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "1b004446-5dda-3155-8d27-549d2e15b3a6",
+    "externalId": null,
+    "dateTime": "2020-03-14T17:01:50Z",
+    "amount": 40.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-14T17:01:50Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 40.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "44b92a37-d9c3-39eb-aebf-6adf41ab0847",
+    "externalId": null,
+    "dateTime": "2020-03-14T15:29:47Z",
+    "amount": 26.99,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-14T15:29:47Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 26.99
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "32142837-67bc-3319-83c9-da714346d964",
+    "externalId": null,
+    "dateTime": "2020-03-14T11:06:07Z",
+    "amount": 6.37,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "tf8Hz5zJZmO9W6HUb1d5R9u1yaubJ1gSnH74D6vl8YQ=",
+    "category": "General",
+    "merchant": "/3ULP8tEzRVAbBmZM5kqBuHoEQAdL51sxAc8FgKUq+M=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-14T11:06:07Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -6.37
+      },
+      "remittanceInformationUnstructured": "tf8Hz5zJZmO9W6HUb1d5R9u1yaubJ1gSnH74D6vl8YQ=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "fe2aa11e-69da-311c-829e-26c80e269fc9",
+    "externalId": null,
+    "dateTime": "2020-03-14T11:06:07Z",
+    "amount": 13.95,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "UTRev8L0p7U9FXPhT2MpXvOSFrzgQBXXe5Dum6rCTis=",
+    "category": "General",
+    "merchant": "KYMRGDPZ8DdeTQD2+ZRKinv4DcGc0eWumIv4DQQ3bec=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-14T11:06:07Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -13.95
+      },
+      "remittanceInformationUnstructured": "UTRev8L0p7U9FXPhT2MpXvOSFrzgQBXXe5Dum6rCTis=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "df15f297-f9a2-3268-8531-fb77d65b3df1",
+    "externalId": null,
+    "dateTime": "2020-03-13T20:58:36Z",
+    "amount": 6.37,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-13T20:58:36Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 6.37
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "9f8ae6e5-4b1a-3274-a3a0-f15c74d136b0",
+    "externalId": null,
+    "dateTime": "2020-03-13T20:42:13Z",
+    "amount": 408.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": "nmEHcyvagAP7fdQNctVrOwNNPyg3Pbk0722sTQ9k2EM=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-13T20:42:13Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -408.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "47b0e706-478e-3ca3-9b47-f8ca4b8d7f9a",
+    "externalId": null,
+    "dateTime": "2020-03-13T20:07:58Z",
+    "amount": 408.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "82/sI0aMlISlU5BYFlEgKrmIp0fA2breniZvJmTBFrI=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-13T20:07:58Z",
+      "valueDate": "2020-03-16T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 408.00
+      },
+      "remittanceInformationUnstructured": "82/sI0aMlISlU5BYFlEgKrmIp0fA2breniZvJmTBFrI=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "c5a93a8e-8713-37e6-aed5-c335493fecc5",
+    "externalId": null,
+    "dateTime": "2020-03-13T11:20:34Z",
+    "amount": 77.50,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "umVDyU50fViBtLGNC/wSc57gRbVjXyOdOfAPggArH9Q=",
+    "category": "General",
+    "merchant": "i0oQaU/3wqow6kQiQbd+jowC6mV0PYSUGl18A4dXZAo=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-13T11:20:34Z",
+      "valueDate": "2020-03-13T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -77.50
+      },
+      "remittanceInformationUnstructured": "umVDyU50fViBtLGNC/wSc57gRbVjXyOdOfAPggArH9Q=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "32e348fa-0ab2-39cd-a6de-54c73bd6d100",
+    "externalId": null,
+    "dateTime": "2020-03-13T11:20:34Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "L6uBpRQhHfJbS5kKijQHOWHTdxJ6VHfYc/U6RKmnmEo=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-13T11:20:34Z",
+      "valueDate": "2020-03-13T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "L6uBpRQhHfJbS5kKijQHOWHTdxJ6VHfYc/U6RKmnmEo=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "0659fa6d-85a7-3aa3-9629-1688d5d51e75",
+    "externalId": null,
+    "dateTime": "2020-03-13T11:20:34Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "XgeV60Sgb8b2jlGZr9PYRwSpnFLmAF4480rOW8e3hhE=",
+    "category": "General",
+    "merchant": "mdKown4pOEALitwCcsIieWb3MIqCq4dc1OFNloMoa0A=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-13T11:20:34Z",
+      "valueDate": "2020-03-13T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "XgeV60Sgb8b2jlGZr9PYRwSpnFLmAF4480rOW8e3hhE=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "d0e3b637-cee1-3d62-b789-68c2e2d383c7",
+    "externalId": null,
+    "dateTime": "2020-03-13T00:55:03Z",
+    "amount": 13.99,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-13T00:55:03Z",
+      "valueDate": "2020-03-13T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 13.99
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "aa32b9ec-f324-3f6e-8eda-c87aaabb6151",
+    "externalId": null,
+    "dateTime": "2020-03-12T17:53:49Z",
+    "amount": 20.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "tKeto6c3Frwfevd/jtVom4dB2uQUzGGPN5fDdNIRgaU=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T17:53:49Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -20.00
+      },
+      "remittanceInformationUnstructured": "tKeto6c3Frwfevd/jtVom4dB2uQUzGGPN5fDdNIRgaU=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "0913b175-b9ed-372d-be5d-0f39d0c3ea77",
+    "externalId": null,
+    "dateTime": "2020-03-12T17:53:27Z",
+    "amount": 20.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T17:53:27Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 20.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "3f7c9b2d-d0a2-3769-864d-bc9ace95e17a",
+    "externalId": null,
+    "dateTime": "2020-03-12T16:37:02Z",
+    "amount": 77.50,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T16:37:02Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 77.50
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "742e5cbf-eb39-3aa4-887c-de191c43db2a",
+    "externalId": null,
+    "dateTime": "2020-03-12T16:16:57Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T16:16:57Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 5.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "17c7172e-a232-3c18-b17a-d0447c80562d",
+    "externalId": null,
+    "dateTime": "2020-03-12T16:05:02Z",
+    "amount": 210.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T16:05:02Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -210.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "10f17af7-d1ef-35af-b983-12f2e7f81729",
+    "externalId": null,
+    "dateTime": "2020-03-12T16:04:43Z",
+    "amount": 105.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T16:04:43Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 105.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "d90ae041-ad5c-3847-8308-bc242efecfde",
+    "externalId": null,
+    "dateTime": "2020-03-12T16:03:10Z",
+    "amount": 105.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "82/sI0aMlISlU5BYFlEgKrmIp0fA2breniZvJmTBFrI=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T16:03:10Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 105.00
+      },
+      "remittanceInformationUnstructured": "82/sI0aMlISlU5BYFlEgKrmIp0fA2breniZvJmTBFrI=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "8c0fd492-8d26-3d57-b40a-356868ce9abd",
+    "externalId": null,
+    "dateTime": "2020-03-12T11:05:12Z",
+    "amount": 1.20,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "D1JJ1iaXPFNd11WIJq9ilRmTni1HZYAdHX+rN2fAVpQ=",
+    "category": "General",
+    "merchant": "d3K91HjJNzxxDTnwq0QT3lgERXKXJ1YKG68zmSzrM1Y=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T11:05:12Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -1.20
+      },
+      "remittanceInformationUnstructured": "D1JJ1iaXPFNd11WIJq9ilRmTni1HZYAdHX+rN2fAVpQ=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "5f01e99f-9e5a-3e2e-a534-2c1063bc9da8",
+    "externalId": null,
+    "dateTime": "2020-03-12T11:05:12Z",
+    "amount": 1.20,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "D1JJ1iaXPFNd11WIJq9ilRmTni1HZYAdHX+rN2fAVpQ=",
+    "category": "General",
+    "merchant": "d3K91HjJNzxxDTnwq0QT3lgERXKXJ1YKG68zmSzrM1Y=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T11:05:12Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -1.20
+      },
+      "remittanceInformationUnstructured": "D1JJ1iaXPFNd11WIJq9ilRmTni1HZYAdHX+rN2fAVpQ=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "4b1e2ad0-7b8b-36fa-a961-b38544bb5a02",
+    "externalId": null,
+    "dateTime": "2020-03-12T11:05:12Z",
+    "amount": 1.30,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "o5xS+tvwdDlTzLYsM7ZoZWyZCYPMR9xOkGh642iODgA=",
+    "category": "General",
+    "merchant": "p1FScYnkWOPVc/weiFreUnDbiQX9zoTcGCdvxrT7GP0=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T11:05:12Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -1.30
+      },
+      "remittanceInformationUnstructured": "o5xS+tvwdDlTzLYsM7ZoZWyZCYPMR9xOkGh642iODgA=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "44f3ccdd-9f76-332c-9ac5-73409fcd442a",
+    "externalId": null,
+    "dateTime": "2020-03-12T11:05:12Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "qhhtzw9aTreBU4FJ6iINq2LIJWnR7xRfJStfPSj7UfU=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T11:05:12Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "qhhtzw9aTreBU4FJ6iINq2LIJWnR7xRfJStfPSj7UfU=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "29aaea86-6e53-3187-b1aa-90429d8aef99",
+    "externalId": null,
+    "dateTime": "2020-03-12T09:40:29Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-12T09:40:29Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 5.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "37160b36-347f-38e3-9ec0-eabdc47a235c",
+    "externalId": null,
+    "dateTime": "2020-03-11T22:13:43Z",
+    "amount": 1.20,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-11T22:13:43Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 1.20
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "366d9c46-b7f3-3c6b-8431-85209c68cc34",
+    "externalId": null,
+    "dateTime": "2020-03-11T22:07:31Z",
+    "amount": 1.03,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-11T22:07:31Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 1.03
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "3646a297-15fa-3cc6-a48c-1cee38fe7546",
+    "externalId": null,
+    "dateTime": "2020-03-11T19:05:39Z",
+    "amount": 1.30,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-11T19:05:39Z",
+      "valueDate": "2020-03-12T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 1.30
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "1620170c-4fa1-3a79-9a9e-fb6e707486a2",
+    "externalId": null,
+    "dateTime": "2020-03-11T17:24:42Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-11T17:24:42Z",
+      "valueDate": "2020-03-11T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 5.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "526c7f25-352a-3f96-9312-b0417efd6630",
+    "externalId": null,
+    "dateTime": "2020-03-11T17:19:54Z",
+    "amount": 10.99,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "pyYOHLMjKXJyyg7qTOhoaRyBYxgM3fpqOH0MNkvwBfs=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-11T17:19:54Z",
+      "valueDate": "2020-03-11T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.99
+      },
+      "remittanceInformationUnstructured": "pyYOHLMjKXJyyg7qTOhoaRyBYxgM3fpqOH0MNkvwBfs=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "17b7ac7d-9fb5-3200-b0ee-bf6189cefa97",
+    "externalId": null,
+    "dateTime": "2020-03-11T17:19:28Z",
+    "amount": 0.80,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-11T17:19:28Z",
+      "valueDate": "2020-03-11T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 0.80
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "d52cacf0-ac50-35c3-9aa3-20d6b24db758",
+    "externalId": null,
+    "dateTime": "2020-03-11T17:18:41Z",
+    "amount": 10.30,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-11T17:18:41Z",
+      "valueDate": "2020-03-11T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.30
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "439d2fed-bfa4-3788-8a5d-a13a1def6050",
+    "externalId": null,
+    "dateTime": "2020-03-11T15:08:02Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-11T15:08:02Z",
+      "valueDate": "2020-03-11T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "7c617b86-c772-3d0a-8306-31f74053e3c3",
+    "externalId": null,
+    "dateTime": "2020-03-11T15:07:35Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-11T15:07:35Z",
+      "valueDate": "2020-03-11T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "c6063c70-0d0f-3251-bf7b-a42bd14dcbc6",
+    "externalId": null,
+    "dateTime": "2020-03-11T14:53:45Z",
+    "amount": 16.30,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-11T14:53:45Z",
+      "valueDate": "2020-03-11T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -16.30
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "d6ea6e47-56e7-3199-8a6a-df8713426b63",
+    "externalId": null,
+    "dateTime": "2020-03-11T14:53:21Z",
+    "amount": 16.30,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-11T14:53:21Z",
+      "valueDate": "2020-03-11T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 16.30
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "151d17e2-b053-3fcf-bdbd-f1fb202e6307",
+    "externalId": null,
+    "dateTime": "2020-03-10T10:48:26Z",
+    "amount": 8.36,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "I2ByBbb9fkSfh+75HRstxYJ3qZInM0DWmpRxMqFuS4Q=",
+    "category": "General",
+    "merchant": "meqLk7cBEziOSv1/dlTIPmdXmp1A12ADbXjeDtmmNdY=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-10T10:48:26Z",
+      "valueDate": "2020-03-10T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -8.36
+      },
+      "remittanceInformationUnstructured": "I2ByBbb9fkSfh+75HRstxYJ3qZInM0DWmpRxMqFuS4Q=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "92e82498-dac3-39d3-b17e-f14934adebe2",
+    "externalId": null,
+    "dateTime": "2020-03-09T23:20:06Z",
+    "amount": 315.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-09T23:20:06Z",
+      "valueDate": "2020-03-10T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -315.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "a2ceecca-9ada-3b7a-8812-db66e9743e20",
+    "externalId": null,
+    "dateTime": "2020-03-09T22:12:26Z",
+    "amount": 315.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "82/sI0aMlISlU5BYFlEgKrmIp0fA2breniZvJmTBFrI=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-09T22:12:26Z",
+      "valueDate": "2020-03-10T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 315.00
+      },
+      "remittanceInformationUnstructured": "82/sI0aMlISlU5BYFlEgKrmIp0fA2breniZvJmTBFrI=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "a16e41ac-0d89-345c-a06f-5d6b6dbf8aab",
+    "externalId": null,
+    "dateTime": "2020-03-09T22:10:46Z",
+    "amount": 8.36,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-09T22:10:46Z",
+      "valueDate": "2020-03-10T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 8.36
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "3de75293-701d-3a50-a186-7dc61bbd5c01",
+    "externalId": null,
+    "dateTime": "2020-03-09T11:46:31Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "YEK0RUloQ2Sk3/pnEOw64EnzAzlFZoTUBMTACkflOL4=",
+    "category": "General",
+    "merchant": "9PDONOQCLD53p1gRkOCugYaVEx+DyROZa7lvKoZO7oA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-09T11:46:31Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "YEK0RUloQ2Sk3/pnEOw64EnzAzlFZoTUBMTACkflOL4=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "51582054-2b18-3583-82ab-bd7f74dac35b",
+    "externalId": null,
+    "dateTime": "2020-03-09T11:46:31Z",
+    "amount": 10.70,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "7bG+sjMUUE0xnCMaK1YZv+u4AqoRYkjCtEMgyaw/hRo=",
+    "category": "General",
+    "merchant": "nd7REQi5vV4AYXoi38+10ucZv+R7CsBqgeRAPElaWNg=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-09T11:46:31Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.70
+      },
+      "remittanceInformationUnstructured": "7bG+sjMUUE0xnCMaK1YZv+u4AqoRYkjCtEMgyaw/hRo=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "e0e5c5e7-c716-3b37-9476-b133bdde3e87",
+    "externalId": null,
+    "dateTime": "2020-03-09T11:46:31Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "WBy2S+ShuLZcyiqA91gmqsixvmBTOguHH9vqMN49NPw=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-09T11:46:31Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "WBy2S+ShuLZcyiqA91gmqsixvmBTOguHH9vqMN49NPw=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "6a884afa-01d7-39a3-92b9-d2c7483ef94a",
+    "externalId": null,
+    "dateTime": "2020-03-08T14:14:22Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-08T14:14:22Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "ed038b41-3331-30f0-9dfc-81d4b9467904",
+    "externalId": null,
+    "dateTime": "2020-03-08T09:54:49Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-08T09:54:49Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "cfd054f2-36a8-3bf1-a565-cbf3288d4fed",
+    "externalId": null,
+    "dateTime": "2020-03-07T16:15:17Z",
+    "amount": 10.99,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "TNmCMQ4xY6yg7BrCWqKoslsSq93rfuBN4mcjpyTW564=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-07T16:15:17Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.99
+      },
+      "remittanceInformationUnstructured": "TNmCMQ4xY6yg7BrCWqKoslsSq93rfuBN4mcjpyTW564=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "cd120620-31bd-3144-a170-bfe72c2a8253",
+    "externalId": null,
+    "dateTime": "2020-03-07T16:14:43Z",
+    "amount": 11.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-07T16:14:43Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 11.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "fd1527b9-3561-3a8a-9c6d-4b89e26b4238",
+    "externalId": null,
+    "dateTime": "2020-03-07T16:01:31Z",
+    "amount": 10.70,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-07T16:01:31Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.70
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "e585e1b9-75ea-3a9e-96dd-90fe19f21b79",
+    "externalId": null,
+    "dateTime": "2020-03-07T11:14:17Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "eNIXU/81u8zxup5DJ584HIxnuK6oNOqA1E9BfmyeBPA=",
+    "category": "General",
+    "merchant": "d3K91HjJNzxxDTnwq0QT3lgERXKXJ1YKG68zmSzrM1Y=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-07T11:14:17Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "eNIXU/81u8zxup5DJ584HIxnuK6oNOqA1E9BfmyeBPA=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "aa374bcd-6147-34b6-a1a6-4925d241afab",
+    "externalId": null,
+    "dateTime": "2020-03-07T11:14:17Z",
+    "amount": 6.36,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "eE66nzBlBBLvE7sZkaUEBXmANAuq6KnrAYACQhtgY7k=",
+    "category": "General",
+    "merchant": "nd7REQi5vV4AYXoi38+10ucZv+R7CsBqgeRAPElaWNg=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-07T11:14:17Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -6.36
+      },
+      "remittanceInformationUnstructured": "eE66nzBlBBLvE7sZkaUEBXmANAuq6KnrAYACQhtgY7k=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "1639f79b-36dc-3407-83b5-d5a7e2266bc8",
+    "externalId": null,
+    "dateTime": "2020-03-07T11:14:17Z",
+    "amount": 3.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "0YkH1viG1Mh1SsOvFNUXPgWE05etUcy64hKokGFITM0=",
+    "category": "General",
+    "merchant": "mdKown4pOEALitwCcsIieWb3MIqCq4dc1OFNloMoa0A=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-07T11:14:17Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -3.00
+      },
+      "remittanceInformationUnstructured": "0YkH1viG1Mh1SsOvFNUXPgWE05etUcy64hKokGFITM0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "2a0c95a9-b17e-3a1f-be77-05489425f0ae",
+    "externalId": null,
+    "dateTime": "2020-03-06T20:20:09Z",
+    "amount": 6.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-06T20:20:09Z",
+      "valueDate": "2020-03-09T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 6.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "e74bf03c-5f14-3793-8f55-dcfe1ee544fc",
+    "externalId": null,
+    "dateTime": "2020-03-06T10:58:54Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-06T10:58:54Z",
+      "valueDate": "2020-03-06T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 5.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "e0ca9d8c-e10b-32bd-9e61-7e5f1af4000b",
+    "externalId": null,
+    "dateTime": "2020-03-06T09:41:47Z",
+    "amount": 1.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-06T09:41:47Z",
+      "valueDate": "2020-03-06T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 1.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "b8cc434a-cd37-3e60-bcb2-01d1defa8279",
+    "externalId": null,
+    "dateTime": "2020-03-05T12:01:15Z",
+    "amount": 0.70,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-05T12:01:15Z",
+      "valueDate": "2020-03-05T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 0.70
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "c60ca16f-8ee4-385d-8090-6df1a0c6bed1",
+    "externalId": null,
+    "dateTime": "2020-03-05T11:09:27Z",
+    "amount": 1.30,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "8uxJzrVjRMp12I8vQ6t/TanQzNK3htlb8QKLzs01I9Y=",
+    "category": "General",
+    "merchant": "p1FScYnkWOPVc/weiFreUnDbiQX9zoTcGCdvxrT7GP0=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-05T11:09:27Z",
+      "valueDate": "2020-03-05T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -1.30
+      },
+      "remittanceInformationUnstructured": "8uxJzrVjRMp12I8vQ6t/TanQzNK3htlb8QKLzs01I9Y=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "df68842a-e659-31b5-9927-095db1fe57ec",
+    "externalId": null,
+    "dateTime": "2020-03-05T11:09:27Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "6mUhmb/+Kzt1k2k2S95YLf6WfLbkeXE81bW5zPL/tZg=",
+    "category": "General",
+    "merchant": "9PDONOQCLD53p1gRkOCugYaVEx+DyROZa7lvKoZO7oA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-05T11:09:27Z",
+      "valueDate": "2020-03-05T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "6mUhmb/+Kzt1k2k2S95YLf6WfLbkeXE81bW5zPL/tZg=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "eb0dc967-a4ec-3b01-b602-7a5905489693",
+    "externalId": null,
+    "dateTime": "2020-03-05T11:09:27Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "6mUhmb/+Kzt1k2k2S95YLf6WfLbkeXE81bW5zPL/tZg=",
+    "category": "General",
+    "merchant": "9PDONOQCLD53p1gRkOCugYaVEx+DyROZa7lvKoZO7oA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-05T11:09:27Z",
+      "valueDate": "2020-03-05T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "6mUhmb/+Kzt1k2k2S95YLf6WfLbkeXE81bW5zPL/tZg=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "bd6122e3-4efc-3dab-87fa-8ba564630024",
+    "externalId": null,
+    "dateTime": "2020-03-05T11:09:27Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "fxQrlYbR4Yhiz2+cUU7pbyw7CAxn+X8LMC9FlrdfJg4=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-05T11:09:27Z",
+      "valueDate": "2020-03-05T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "fxQrlYbR4Yhiz2+cUU7pbyw7CAxn+X8LMC9FlrdfJg4=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "bc3c9d62-4934-30a9-9dde-d8f922286f7d",
+    "externalId": null,
+    "dateTime": "2020-03-04T20:43:44Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "wA3g+YUagoLwGFiaMhqdjtMkbqAlOu7bsOVtgSeCCZc=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-04T20:43:44Z",
+      "valueDate": "2020-03-05T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "wA3g+YUagoLwGFiaMhqdjtMkbqAlOu7bsOVtgSeCCZc=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "c023c801-4991-3497-a294-fe45f46c6326",
+    "externalId": null,
+    "dateTime": "2020-03-04T18:27:18Z",
+    "amount": 3.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-04T18:27:18Z",
+      "valueDate": "2020-03-04T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 3.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "fdaa5c3a-642c-3a42-b0e7-f80361a3521a",
+    "externalId": null,
+    "dateTime": "2020-03-04T17:06:49Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-04T17:06:49Z",
+      "valueDate": "2020-03-04T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "cad5a763-0716-3e1d-9102-1faf340433df",
+    "externalId": null,
+    "dateTime": "2020-03-04T11:05:22Z",
+    "amount": 8.37,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "IOfWp6qqwOdv1tWn9jpm6bS6E7VbpDmvswOGgIx0U30=",
+    "category": "General",
+    "merchant": "meqLk7cBEziOSv1/dlTIPmdXmp1A12ADbXjeDtmmNdY=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-04T11:05:22Z",
+      "valueDate": "2020-03-04T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -8.37
+      },
+      "remittanceInformationUnstructured": "IOfWp6qqwOdv1tWn9jpm6bS6E7VbpDmvswOGgIx0U30=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "518193f5-e11f-3042-9f0c-2810e8a771e2",
+    "externalId": null,
+    "dateTime": "2020-03-04T00:11:17Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-04T00:11:17Z",
+      "valueDate": "2020-03-04T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "rSWtBorq2cBj9iK63WCk0S0n7D2YreBFQKdQ9QHZO5s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "1e2b9b8c-8db8-3aaf-b01d-764aee13f62d",
+    "externalId": null,
+    "dateTime": "2020-03-04T00:10:57Z",
+    "amount": 4.30,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-04T00:10:57Z",
+      "valueDate": "2020-03-04T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 4.30
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "ff41df13-3ea4-35ae-9b22-96af7f28e457",
+    "externalId": null,
+    "dateTime": "2020-03-03T23:32:37Z",
+    "amount": 1.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-03T23:32:37Z",
+      "valueDate": "2020-03-04T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 1.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "85caa009-38bb-3db5-85a8-df6b2cd72bb3",
+    "externalId": null,
+    "dateTime": "2020-03-03T23:32:03Z",
+    "amount": 6.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-03T23:32:03Z",
+      "valueDate": "2020-03-04T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 6.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "014a62aa-7580-3fea-a702-b9e565554144",
+    "externalId": null,
+    "dateTime": "2020-03-03T11:21:34Z",
+    "amount": 44.30,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "UVyQMIOu34anocDy9eDb2NUojQNQqaV6ySxoaxGSOp8=",
+    "category": "General",
+    "merchant": "nd7REQi5vV4AYXoi38+10ucZv+R7CsBqgeRAPElaWNg=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-03T11:21:34Z",
+      "valueDate": "2020-03-03T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -44.30
+      },
+      "remittanceInformationUnstructured": "UVyQMIOu34anocDy9eDb2NUojQNQqaV6ySxoaxGSOp8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "0430a16a-dce5-3bc0-bacb-bfd1d159b821",
+    "externalId": null,
+    "dateTime": "2020-03-02T21:47:54Z",
+    "amount": 40.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-02T21:47:54Z",
+      "valueDate": "2020-03-03T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 40.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "59b8aba7-6188-39b6-a03b-2b98f6844654",
+    "externalId": null,
+    "dateTime": "2020-03-02T13:47:51Z",
+    "amount": 25.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-02T13:47:51Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 25.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "621186f4-3ad8-3359-99f3-f32a001a6261",
+    "externalId": null,
+    "dateTime": "2020-03-02T12:53:50Z",
+    "amount": 5.70,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "FgCleZwkuxcYBAkpQRbTR7YRsf04VPSlRII8I285DDg=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-02T12:53:50Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.70
+      },
+      "remittanceInformationUnstructured": "FgCleZwkuxcYBAkpQRbTR7YRsf04VPSlRII8I285DDg=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "d4c9a7fd-2742-3b24-bf86-d9c5656017d8",
+    "externalId": null,
+    "dateTime": "2020-03-02T12:53:50Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "2ktY4J4FZYodIr0aOghkDSmQ7GeCP9jhrrZh9qqM13o=",
+    "category": "General",
+    "merchant": "nd7REQi5vV4AYXoi38+10ucZv+R7CsBqgeRAPElaWNg=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-02T12:53:50Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "2ktY4J4FZYodIr0aOghkDSmQ7GeCP9jhrrZh9qqM13o=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "f4ce9597-4ac3-367c-a89f-74fea386ed84",
+    "externalId": null,
+    "dateTime": "2020-03-02T12:53:50Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "4m2fUun2KQPlp+6A495OBc1XZHHA67vOUM2N0bxF37A=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-02T12:53:50Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "4m2fUun2KQPlp+6A495OBc1XZHHA67vOUM2N0bxF37A=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "e312d4b8-f65b-3aec-bd61-aa32aa186e6f",
+    "externalId": null,
+    "dateTime": "2020-03-02T07:13:30Z",
+    "amount": 14.50,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "MLighm/KSDowOX22Nden1joANiNfcvU3ehm11DFwRlc=",
+    "category": "General",
+    "merchant": "JO2QrVsFiPOIfkIw5PuhvMMUONq6tSgFuV3HCNc4rjo=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-02T07:13:30Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -14.50
+      },
+      "remittanceInformationUnstructured": "MLighm/KSDowOX22Nden1joANiNfcvU3ehm11DFwRlc=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "9ad1abcd-09a1-3c5d-9740-f3491d9297e9",
+    "externalId": null,
+    "dateTime": "2020-03-01T22:39:24Z",
+    "amount": 90.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-01T22:39:24Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -90.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "2b760d0b-4bce-3500-8560-9e017fca440e",
+    "externalId": null,
+    "dateTime": "2020-03-01T22:37:31Z",
+    "amount": 90.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-01T22:37:31Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 90.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "5e7a4c14-7b12-3b89-a146-72d04692fac4",
+    "externalId": null,
+    "dateTime": "2020-03-01T21:53:52Z",
+    "amount": 1.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-01T21:53:52Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 1.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "bb52c57c-85ad-3a21-97c7-0779ac3b6e1e",
+    "externalId": null,
+    "dateTime": "2020-03-01T11:11:48Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "EqM22fdt60uXbbM0ZdtTa4B7nKgmIsBY8WpI7qj0kMI=",
+    "category": "General",
+    "merchant": "9PDONOQCLD53p1gRkOCugYaVEx+DyROZa7lvKoZO7oA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-01T11:11:48Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "EqM22fdt60uXbbM0ZdtTa4B7nKgmIsBY8WpI7qj0kMI=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "793401b2-8286-3600-93a4-d27df23db70f",
+    "externalId": null,
+    "dateTime": "2020-03-01T09:41:43Z",
+    "amount": 2.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-01T09:41:43Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 2.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "c43b8dab-a829-3525-9114-54f7d0a801f9",
+    "externalId": null,
+    "dateTime": "2020-03-01T09:41:22Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-01T09:41:22Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 5.00
+      },
+      "remittanceInformationUnstructured": "AS/G/uvUKVp6ox2LDji1KzwIx5ZIg+oG7Nvg2dotIuY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "aee7265c-6b03-3a6a-b1e4-57c66bcfba04",
+    "externalId": null,
+    "dateTime": "2020-03-01T09:41:04Z",
+    "amount": 3.25,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-01T09:41:04Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 3.25
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "75965f5d-e250-3e5b-b339-3a5855473646",
+    "externalId": null,
+    "dateTime": "2020-03-01T09:36:02Z",
+    "amount": 10.99,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "vWuCeVGyG6b0RIrepMyHSNvFExFoLjZ2CEIo2XeEdoY=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-01T09:36:02Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.99
+      },
+      "remittanceInformationUnstructured": "vWuCeVGyG6b0RIrepMyHSNvFExFoLjZ2CEIo2XeEdoY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "4fe93116-9e5b-3998-a0d1-bd1bb6faa8b8",
+    "externalId": null,
+    "dateTime": "2020-03-01T09:35:44Z",
+    "amount": 11.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-03-01T09:35:44Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 11.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "84ca52d5-0087-3a52-a14f-d5d55d1af346",
+    "externalId": null,
+    "dateTime": "2020-02-29T16:28:37Z",
+    "amount": 1.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-29T16:28:37Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 1.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "54c4a1bd-4b7d-3e70-9164-f0b172b081d0",
+    "externalId": null,
+    "dateTime": "2020-02-29T11:27:16Z",
+    "amount": 1.30,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "S6tyK7WywAVtigm5aCMXhRZbI+sdb+JP/Cj3tJHTuyo=",
+    "category": "General",
+    "merchant": "p1FScYnkWOPVc/weiFreUnDbiQX9zoTcGCdvxrT7GP0=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-29T11:27:16Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -1.30
+      },
+      "remittanceInformationUnstructured": "S6tyK7WywAVtigm5aCMXhRZbI+sdb+JP/Cj3tJHTuyo=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "589aeff4-cf76-36d9-9012-b507814dc9a3",
+    "externalId": null,
+    "dateTime": "2020-02-29T11:27:16Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "tJ0ZL+k+s2kqsrW8H01nvOWqy7Pokr+1KLdMaFYCrXM=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-29T11:27:16Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "tJ0ZL+k+s2kqsrW8H01nvOWqy7Pokr+1KLdMaFYCrXM=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "069fe2d8-9bdd-319f-bd73-927f068e5d55",
+    "externalId": null,
+    "dateTime": "2020-02-29T11:27:16Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "tJ0ZL+k+s2kqsrW8H01nvOWqy7Pokr+1KLdMaFYCrXM=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-29T11:27:16Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "tJ0ZL+k+s2kqsrW8H01nvOWqy7Pokr+1KLdMaFYCrXM=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "ca81c6cf-d158-396a-b39d-696cc3fc27e3",
+    "externalId": null,
+    "dateTime": "2020-02-29T04:16:20Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-29T04:16:20Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 5.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "26da42ca-d4e1-3b3d-8008-a649af468e5d",
+    "externalId": null,
+    "dateTime": "2020-02-28T22:04:49Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-28T22:04:49Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 5.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "973cc5a2-53e2-3bdf-bf52-5247c6d877ce",
+    "externalId": null,
+    "dateTime": "2020-02-28T20:42:47Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-28T20:42:47Z",
+      "valueDate": "2020-03-02T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "e70caa09-5a0c-33bf-b058-b5cef5ec7ebd",
+    "externalId": null,
+    "dateTime": "2020-02-28T16:07:06Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-28T16:07:06Z",
+      "valueDate": "2020-02-28T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "99b62fe1-5561-3594-baca-d9cb46099f6d",
+    "externalId": null,
+    "dateTime": "2020-02-28T16:02:29Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "SeVxBsOozFDPmorqS3pmnQ8yMlzSL3DWzt7yRbSOHUw=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-28T16:02:29Z",
+      "valueDate": "2020-02-28T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "SeVxBsOozFDPmorqS3pmnQ8yMlzSL3DWzt7yRbSOHUw=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "828282de-d49c-3ea1-8402-0a86b65109ab",
+    "externalId": null,
+    "dateTime": "2020-02-28T12:20:03Z",
+    "amount": 10.77,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "pc9lSvMIYX3MSAz1Jb9z6V/paFKHUeNiHYcBoi9N4J4=",
+    "category": "General",
+    "merchant": "meqLk7cBEziOSv1/dlTIPmdXmp1A12ADbXjeDtmmNdY=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-28T12:20:03Z",
+      "valueDate": "2020-02-28T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.77
+      },
+      "remittanceInformationUnstructured": "pc9lSvMIYX3MSAz1Jb9z6V/paFKHUeNiHYcBoi9N4J4=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "788a00e9-80e0-3b5d-8d12-af7c337cdfc1",
+    "externalId": null,
+    "dateTime": "2020-02-27T17:14:25Z",
+    "amount": 0.77,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-27T17:14:25Z",
+      "valueDate": "2020-02-27T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 0.77
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "f334053c-d04c-31f2-a6f0-a88b19ea1780",
+    "externalId": null,
+    "dateTime": "2020-02-27T17:13:01Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-27T17:13:01Z",
+      "valueDate": "2020-02-27T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "65657e97-9813-3e7f-9ed3-a06e4d0404ad",
+    "externalId": null,
+    "dateTime": "2020-02-27T12:24:25Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "GBMnmSaPURQQe/AXRbuuKo9i6tw2GKTrhb59hAFYzKk=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-27T12:24:25Z",
+      "valueDate": "2020-02-27T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "GBMnmSaPURQQe/AXRbuuKo9i6tw2GKTrhb59hAFYzKk=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "88b0fbb8-69ce-3c96-827d-46e1209fe615",
+    "externalId": null,
+    "dateTime": "2020-02-27T12:10:50Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-27T12:10:50Z",
+      "valueDate": "2020-02-27T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "6e64877e-17ee-3d82-b889-226d8fe23f9c",
+    "externalId": null,
+    "dateTime": "2020-02-27T11:04:37Z",
+    "amount": 3.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "kIrPPH8kvDQkDupdsg59SULzJiOUSsygHFpZakKYujM=",
+    "category": "General",
+    "merchant": "UhIQTfzwkqkatzVPc49LtzDLmFgQSXGNWor/WORqlzQ=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-27T11:04:37Z",
+      "valueDate": "2020-02-27T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -3.00
+      },
+      "remittanceInformationUnstructured": "kIrPPH8kvDQkDupdsg59SULzJiOUSsygHFpZakKYujM=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "72d112b0-18ea-3269-a450-7df1cc0d8bad",
+    "externalId": null,
+    "dateTime": "2020-02-27T11:04:37Z",
+    "amount": 2.30,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "O6sdXz5JesF76+wQRoQ9SqW8zAmRS5PFjDMjbDsAEkc=",
+    "category": "General",
+    "merchant": "p1FScYnkWOPVc/weiFreUnDbiQX9zoTcGCdvxrT7GP0=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-27T11:04:37Z",
+      "valueDate": "2020-02-27T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -2.30
+      },
+      "remittanceInformationUnstructured": "O6sdXz5JesF76+wQRoQ9SqW8zAmRS5PFjDMjbDsAEkc=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "4f139702-a36d-3074-8797-68112f2c2aee",
+    "externalId": null,
+    "dateTime": "2020-02-27T11:04:37Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "aQCKRWbae1hUt3CILjm7AykRdMXmWxzriHw41WpKQDA=",
+    "category": "General",
+    "merchant": "9PDONOQCLD53p1gRkOCugYaVEx+DyROZa7lvKoZO7oA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-27T11:04:37Z",
+      "valueDate": "2020-02-27T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "aQCKRWbae1hUt3CILjm7AykRdMXmWxzriHw41WpKQDA=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "09843f95-5086-34c2-87a3-f8834d08911f",
+    "externalId": null,
+    "dateTime": "2020-02-27T11:04:37Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "nyFPvlKyX0spBuR+3gMF1v5Bj4yVkX7yuduN5AEYZ5M=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-27T11:04:37Z",
+      "valueDate": "2020-02-27T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "nyFPvlKyX0spBuR+3gMF1v5Bj4yVkX7yuduN5AEYZ5M=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "222c2682-bc74-3bbd-93f4-67c7b0e487c8",
+    "externalId": null,
+    "dateTime": "2020-02-27T11:04:37Z",
+    "amount": 16.49,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "CskUh46sl3ZGUb+cbaqltAfOSkjQcthuaaMONLaZhO0=",
+    "category": "General",
+    "merchant": "BkWOeI84+lxd6g7jLk2cIRNfpXJTSk00iKLMP9jw0iI=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-27T11:04:37Z",
+      "valueDate": "2020-02-27T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -16.49
+      },
+      "remittanceInformationUnstructured": "CskUh46sl3ZGUb+cbaqltAfOSkjQcthuaaMONLaZhO0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "ce5df6bb-2a76-3f89-bde5-3306c5ae9cc9",
+    "externalId": null,
+    "dateTime": "2020-02-26T20:23:43Z",
+    "amount": 20.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-26T20:23:43Z",
+      "valueDate": "2020-02-27T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 20.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "0df055a0-16ec-31fe-8a5d-fdd04616d0a2",
+    "externalId": null,
+    "dateTime": "2020-02-26T20:05:38Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-26T20:05:38Z",
+      "valueDate": "2020-02-27T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "16c69f4b-82bb-30d2-a539-5784fdb64c69",
+    "externalId": null,
+    "dateTime": "2020-02-26T18:17:45Z",
+    "amount": 2.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-26T18:17:45Z",
+      "valueDate": "2020-02-26T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 2.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "62815e02-88d3-3a40-b0f5-9d4b0c4e486b",
+    "externalId": null,
+    "dateTime": "2020-02-26T16:45:00Z",
+    "amount": 2.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-26T16:45:00Z",
+      "valueDate": "2020-02-26T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 2.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "11281271-f0f2-33f5-b845-63c579f0f93f",
+    "externalId": null,
+    "dateTime": "2020-02-26T10:56:44Z",
+    "amount": 3.09,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "/A0ZNTbTlXzRaCKlloRjl8/giE554+sZbFHe386s9tk=",
+    "category": "General",
+    "merchant": "8CAr0YcCnxR0kAei17xwEoGiRrRqfaHuLjPAAp0rP1Y=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-26T10:56:44Z",
+      "valueDate": "2020-02-26T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -3.09
+      },
+      "remittanceInformationUnstructured": "/A0ZNTbTlXzRaCKlloRjl8/giE554+sZbFHe386s9tk=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "dcd6b49a-4fff-3d6f-8f4f-dd674cd4b9b6",
+    "externalId": null,
+    "dateTime": "2020-02-26T10:56:44Z",
+    "amount": 4.39,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "eGngjRaJf9oWWOtrsNP7hkSsROkKcSKGZnqNzn1s7n8=",
+    "category": "General",
+    "merchant": "meqLk7cBEziOSv1/dlTIPmdXmp1A12ADbXjeDtmmNdY=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-26T10:56:44Z",
+      "valueDate": "2020-02-26T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -4.39
+      },
+      "remittanceInformationUnstructured": "eGngjRaJf9oWWOtrsNP7hkSsROkKcSKGZnqNzn1s7n8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "d9aaf78e-afe6-31af-bd0d-6dafa7f9534c",
+    "externalId": null,
+    "dateTime": "2020-02-26T02:13:46Z",
+    "amount": 20.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-26T02:13:46Z",
+      "valueDate": "2020-02-26T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 20.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "035744e6-7910-3b38-b809-e9a8b1576b47",
+    "externalId": null,
+    "dateTime": "2020-02-25T17:31:43Z",
+    "amount": 3.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-25T17:31:43Z",
+      "valueDate": "2020-02-25T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 3.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "44385f75-1ddc-3d5a-9ea5-f5a204d60ded",
+    "externalId": null,
+    "dateTime": "2020-02-25T17:23:22Z",
+    "amount": 4.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-25T17:23:22Z",
+      "valueDate": "2020-02-25T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 4.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "1d8ca2e7-04cd-369a-bd71-f08c920a8334",
+    "externalId": null,
+    "dateTime": "2020-02-25T16:45:23Z",
+    "amount": 1.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-25T16:45:23Z",
+      "valueDate": "2020-02-25T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 1.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "8f4b9d14-6711-3f14-9975-a44c8cdf7adc",
+    "externalId": null,
+    "dateTime": "2020-02-25T10:50:48Z",
+    "amount": 22.70,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "93REGNKo+eQJTQeaX20jeT3crV2QsmMc5eup2VplRNY=",
+    "category": "General",
+    "merchant": "nd7REQi5vV4AYXoi38+10ucZv+R7CsBqgeRAPElaWNg=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-25T10:50:48Z",
+      "valueDate": "2020-02-25T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -22.70
+      },
+      "remittanceInformationUnstructured": "93REGNKo+eQJTQeaX20jeT3crV2QsmMc5eup2VplRNY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "d2647428-4e38-334e-ace0-f6bddbd0f833",
+    "externalId": null,
+    "dateTime": "2020-02-24T12:01:04Z",
+    "amount": 20.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-24T12:01:04Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 20.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "1be27dd2-d502-3674-89ef-403b5d316b70",
+    "externalId": null,
+    "dateTime": "2020-02-24T11:30:45Z",
+    "amount": 4.50,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "1gCFMT82JeJbbtNm+UqoVg7dbLTbj0SUhMcb/Bnvu4U=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-24T11:30:45Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -4.50
+      },
+      "remittanceInformationUnstructured": "1gCFMT82JeJbbtNm+UqoVg7dbLTbj0SUhMcb/Bnvu4U=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "41a74e4a-5ffb-333f-b19f-d92bde6b1d4d",
+    "externalId": null,
+    "dateTime": "2020-02-24T11:30:45Z",
+    "amount": 7.60,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "qBjsQGLPYLAeUGIIS0ozSRZnqa0nx4Gs0hSZAf56lRk=",
+    "category": "General",
+    "merchant": "d3K91HjJNzxxDTnwq0QT3lgERXKXJ1YKG68zmSzrM1Y=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-24T11:30:45Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -7.60
+      },
+      "remittanceInformationUnstructured": "qBjsQGLPYLAeUGIIS0ozSRZnqa0nx4Gs0hSZAf56lRk=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "346c5ae2-b7db-3770-ae90-0b7162a17060",
+    "externalId": null,
+    "dateTime": "2020-02-24T11:30:45Z",
+    "amount": 14.90,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "hfJUytihEsxHaq9XV3oD44reVop+aoSw9YCZc2QXB4s=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-24T11:30:45Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -14.90
+      },
+      "remittanceInformationUnstructured": "hfJUytihEsxHaq9XV3oD44reVop+aoSw9YCZc2QXB4s=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "03e8722d-ed58-3c92-b644-1bd1f3c3ff77",
+    "externalId": null,
+    "dateTime": "2020-02-24T11:30:45Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "rWI0rqWYBvU5k7CGuFmbhbGPNKk78rRj+++/DwQmsGw=",
+    "category": "General",
+    "merchant": "mdKown4pOEALitwCcsIieWb3MIqCq4dc1OFNloMoa0A=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-24T11:30:45Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "rWI0rqWYBvU5k7CGuFmbhbGPNKk78rRj+++/DwQmsGw=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "98d3bd09-c042-3bcb-8b4a-feee49e0b6f2",
+    "externalId": null,
+    "dateTime": "2020-02-24T11:30:45Z",
+    "amount": 14.95,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "4j6tqnWrm3iCxQd5ooJ8y/nlf7E64+hz51ZUcT97Zf0=",
+    "category": "General",
+    "merchant": "BkWOeI84+lxd6g7jLk2cIRNfpXJTSk00iKLMP9jw0iI=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-24T11:30:45Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -14.95
+      },
+      "remittanceInformationUnstructured": "4j6tqnWrm3iCxQd5ooJ8y/nlf7E64+hz51ZUcT97Zf0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "b7f146a7-124c-3649-831b-0e440f7f4416",
+    "externalId": null,
+    "dateTime": "2020-02-24T02:07:40Z",
+    "amount": 7.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-24T02:07:40Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 7.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "81927caf-3309-32aa-a530-05f7ecb86e41",
+    "externalId": null,
+    "dateTime": "2020-02-23T11:47:07Z",
+    "amount": 15.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-23T11:47:07Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 15.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "a299e415-2128-3a0e-b02b-4b095e74caf8",
+    "externalId": null,
+    "dateTime": "2020-02-22T13:19:37Z",
+    "amount": 15.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-22T13:19:37Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 15.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "a17cc5f9-1900-300d-9419-23c5f91ca24a",
+    "externalId": null,
+    "dateTime": "2020-02-22T10:49:53Z",
+    "amount": 5.79,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "6nAHvsjPxPztG+MMGh1ebX7g16kluJ8NZ6tRCy/bXqI=",
+    "category": "General",
+    "merchant": "UGXekJkYPuQ/P30GMeWHvYP5FReFMNQXY/UP6cADkzg=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-22T10:49:53Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.79
+      },
+      "remittanceInformationUnstructured": "6nAHvsjPxPztG+MMGh1ebX7g16kluJ8NZ6tRCy/bXqI=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "ed038a05-a813-382c-81f2-6ee6959835b0",
+    "externalId": null,
+    "dateTime": "2020-02-21T23:59:51Z",
+    "amount": 48.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-21T23:59:51Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -48.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "0e914051-8988-3729-a756-9acc4226bef5",
+    "externalId": null,
+    "dateTime": "2020-02-21T23:59:11Z",
+    "amount": 1000.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+    "category": "General",
+    "merchant": "Zc0awBUURr22KpQyNyEA4wGcRRuQwonHVKJr97wmxAA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-21T23:59:11Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -1000.00
+      },
+      "remittanceInformationUnstructured": "W2kXpJqB9eOvT9nL7vw5xEsLLGO8uHUYlydRdDjcsQ0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "07d57ce6-3021-37fc-b3de-02027981de35",
+    "externalId": null,
+    "dateTime": "2020-02-21T23:16:09Z",
+    "amount": 1048.22,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "82/sI0aMlISlU5BYFlEgKrmIp0fA2breniZvJmTBFrI=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-21T23:16:09Z",
+      "valueDate": "2020-02-24T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 1048.22
+      },
+      "remittanceInformationUnstructured": "82/sI0aMlISlU5BYFlEgKrmIp0fA2breniZvJmTBFrI=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "343d2971-a61c-3f33-883f-5b46074add17",
+    "externalId": null,
+    "dateTime": "2020-02-21T11:14:44Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "B3hbU2Oj/GBJQw9VQMaVUcwyxrxhdG3dBtzowg/1uBU=",
+    "category": "General",
+    "merchant": "d3K91HjJNzxxDTnwq0QT3lgERXKXJ1YKG68zmSzrM1Y=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-21T11:14:44Z",
+      "valueDate": "2020-02-21T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "B3hbU2Oj/GBJQw9VQMaVUcwyxrxhdG3dBtzowg/1uBU=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "034a0ae2-aa80-3eea-858f-716fe2ea45fe",
+    "externalId": null,
+    "dateTime": "2020-02-21T11:14:44Z",
+    "amount": 3.42,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "kZaaV4AC1bk7rxMgi2A5c4vpkjqH0a2//ZpS72vIzA4=",
+    "category": "General",
+    "merchant": "meqLk7cBEziOSv1/dlTIPmdXmp1A12ADbXjeDtmmNdY=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-21T11:14:44Z",
+      "valueDate": "2020-02-21T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -3.42
+      },
+      "remittanceInformationUnstructured": "kZaaV4AC1bk7rxMgi2A5c4vpkjqH0a2//ZpS72vIzA4=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "f4276bdd-da3d-39d7-993b-9d3139d514d8",
+    "externalId": null,
+    "dateTime": "2020-02-21T11:14:44Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "b8O81/b5aXs03SCXKcRm/Rn7RQ8+b2tFq73SxmvLZ2o=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-21T11:14:44Z",
+      "valueDate": "2020-02-21T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "b8O81/b5aXs03SCXKcRm/Rn7RQ8+b2tFq73SxmvLZ2o=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "c30c0f7f-263a-3026-8a2f-6f8e1df4e6bc",
+    "externalId": null,
+    "dateTime": "2020-02-20T18:12:43Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "bgTJUXGA6K3MbvhELTMfDEQp5epK1eh5Ku6fLxYpTuA=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-20T18:12:43Z",
+      "valueDate": "2020-02-21T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -10.00
+      },
+      "remittanceInformationUnstructured": "bgTJUXGA6K3MbvhELTMfDEQp5epK1eh5Ku6fLxYpTuA=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "192f25c5-8a37-3b5c-9ec6-0b01409c9b1e",
+    "externalId": null,
+    "dateTime": "2020-02-20T10:52:51Z",
+    "amount": 13.30,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "IsT3DaslDPn4iD2nVnpSjOLlKPiS97XqSx8dw9wN6VQ=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-20T10:52:51Z",
+      "valueDate": "2020-02-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -13.30
+      },
+      "remittanceInformationUnstructured": "IsT3DaslDPn4iD2nVnpSjOLlKPiS97XqSx8dw9wN6VQ=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "35825042-ffc4-327a-ac06-8f4d20576493",
+    "externalId": null,
+    "dateTime": "2020-02-20T10:52:51Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "CdAqiN6A/eLFBRl+RIouRaPEZnlQ1rR1P3tVAK0UcE4=",
+    "category": "General",
+    "merchant": "9PDONOQCLD53p1gRkOCugYaVEx+DyROZa7lvKoZO7oA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-20T10:52:51Z",
+      "valueDate": "2020-02-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "CdAqiN6A/eLFBRl+RIouRaPEZnlQ1rR1P3tVAK0UcE4=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "89a9a2f2-2e6b-3869-8c8a-ff7c50405c9b",
+    "externalId": null,
+    "dateTime": "2020-02-20T10:52:51Z",
+    "amount": 1.30,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "TMEZFlOj+1YZLt1+ChxREbikxkECFX/gNB2GfbgStO0=",
+    "category": "General",
+    "merchant": "p1FScYnkWOPVc/weiFreUnDbiQX9zoTcGCdvxrT7GP0=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-20T10:52:51Z",
+      "valueDate": "2020-02-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -1.30
+      },
+      "remittanceInformationUnstructured": "TMEZFlOj+1YZLt1+ChxREbikxkECFX/gNB2GfbgStO0=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "1b03ce8b-7edc-3e17-9227-09b8a872bd04",
+    "externalId": null,
+    "dateTime": "2020-02-20T10:52:51Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "oL8db9bM47OGHc8lqyNZDoYdzofVkTnazqmyX+sK/1A=",
+    "category": "General",
+    "merchant": "9PDONOQCLD53p1gRkOCugYaVEx+DyROZa7lvKoZO7oA=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-20T10:52:51Z",
+      "valueDate": "2020-02-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "oL8db9bM47OGHc8lqyNZDoYdzofVkTnazqmyX+sK/1A=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "6fa73484-6c24-3466-b69d-528605c952c4",
+    "externalId": null,
+    "dateTime": "2020-02-20T10:52:51Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "MFui+ZWuHpjhK3oe0aswyeq2GQwLCZxOjtwslsw4zVM=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-20T10:52:51Z",
+      "valueDate": "2020-02-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "MFui+ZWuHpjhK3oe0aswyeq2GQwLCZxOjtwslsw4zVM=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "d911b16d-6055-3216-9fd2-0ce81136fe6e",
+    "externalId": null,
+    "dateTime": "2020-02-20T10:52:51Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "MFui+ZWuHpjhK3oe0aswyeq2GQwLCZxOjtwslsw4zVM=",
+    "category": "General",
+    "merchant": "TQLUr5IhTCsnO4G9xLtvFcZhgdRhwS1rnaiXDmeAqdU=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-20T10:52:51Z",
+      "valueDate": "2020-02-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": -5.00
+      },
+      "remittanceInformationUnstructured": "MFui+ZWuHpjhK3oe0aswyeq2GQwLCZxOjtwslsw4zVM=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "acbdc894-78ad-3cc2-9f47-ec505f435af6",
+    "externalId": null,
+    "dateTime": "2020-02-20T04:08:28Z",
+    "amount": 10.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-20T04:08:28Z",
+      "valueDate": "2020-02-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 10.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "a41480d7-a52d-3227-8dc4-283242dadbb6",
+    "externalId": null,
+    "dateTime": "2020-02-20T00:04:26Z",
+    "amount": 30.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-20T00:04:26Z",
+      "valueDate": "2020-02-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 30.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  },
+  {
+    "transactionId": "04a6be59-d17e-3f8c-b2e7-a5d47f7077b0",
+    "externalId": null,
+    "dateTime": "2020-02-19T22:05:53Z",
+    "amount": 5.00,
+    "status": "BOOKED",
+    "type": "CREDIT",
+    "description": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+    "category": "General",
+    "merchant": null,
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "bookingDate": "2020-02-19T22:05:53Z",
+      "valueDate": "2020-02-20T00:00:00Z",
+      "transactionAmount": {
+        "currency": "GBP",
+        "amount": 5.00
+      },
+      "remittanceInformationUnstructured": "kCpip6Uvxf/wQI5UPrILoKenCBSROaRu1UJzURSsGK8=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  }
+]

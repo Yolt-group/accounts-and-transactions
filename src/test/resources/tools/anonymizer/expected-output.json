@@ -1,0 +1,25 @@
+[
+  {
+    "transactionId": "260681c2-1d7a-37eb-874c-b473c9fe0aa5",
+    "externalId": null,
+    "dateTime": "2020-03-29T12:29:24+01:00",
+    "amount": 100000.00,
+    "status": "BOOKED",
+    "type": "DEBIT",
+    "description": "6BpWHO4DvMQWdwxRt4K74finvyEFOM/ZNbjycZdnJVY=",
+    "category": "Charity",
+    "merchant": "sTDQtJLBo7otjDPt9JRSo1Z7zo7t4x93SEI3n60TLEI=",
+    "extendedTransaction": {
+      "status": "BOOKED",
+      "transactionId": "260681c2-1d7a-37eb-874c-b473c9fe0aa5",
+      "bookingDate": "2020-03-29T12:29:24+01:00",
+      "transactionAmount": {
+        "currency": "EUR",
+        "amount": -100000.00
+      },
+      "remittanceInformationUnstructured": "6BpWHO4DvMQWdwxRt4K74finvyEFOM/ZNbjycZdnJVY=",
+      "transactionIdGenerated": true
+    },
+    "bankSpecific": null
+  }
+]

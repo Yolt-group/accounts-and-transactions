@@ -1,0 +1,54 @@
+server:
+  port: 8098
+service:
+  accounts:
+    url: http://172.17.32.69:30333/accounts
+  tokens:
+    signature-jwks: "{\"keys\":[{\"kty\":\"RSA\",\"e\":\"AQAB\",\"use\":\"sig\",\"kid\":\"2808f03d-1050-45f2-8c01-9c2441e050a8\",\"alg\":\"RS512\",\"n\":\"lRaJ738bbiMUpmTFLVXioZd7u9T9qm6LSH5FdW1AUrJJG-E4fo6n_30_ftUKc4ZZqotlJ-SvujHvqfNTbVkVy4m4j-yVgTQNP-OIsgTREVckcOk0v8bTaQALB3uCLA7xdDrr24K35tS5E6kDQQ8m9RvHiQk4owNLT81PevHkoH1lfgUwOZHfXLzJBqj_PXPoSIT1y9SfkCn7M00ea28n2xWbGXV_vj8bhJhKSXB2jnlHXO2QEXH6v8VoENl9CaWyjkJ0uJPPCyjRYO4-P2F92Xw88RC0rGGH-AA_sI9l8zOHu2MKFAL9txi2irUBq9bIayTWv0sjBbtHm_hopywVaw\"}]}"
+spring:
+  kafka:
+    properties:
+      security:
+        protocol: SSL
+    consumer:
+      group-id: ingestion-local
+    bootstrap-servers: 10.13.1.4:9093
+  data:
+    cassandra:
+      username: cassandra
+      password: cassandra
+      keyspace-name: accounts_and_transactions
+      ds-keyspace-name: datascience
+      contact-points: cassa.team4.yolt.io
+      serial-consistency-level: local_serial
+      port: 9142
+      ssl: true
+yolt:
+  deployment:
+    namespace: default
+    environment: team4
+    cluster: 0
+  vault:
+    address: https://vault.vault-dta.yolt.io
+    kafka:
+      enabled: true
+      truststore-path: C:\\yolt\\accounts-and-transactions\\trust
+      keystore-path: C:\\yolt\\accounts-and-transactions\\key
+    enabled: true
+    auth:
+      service-account-token-file: C:\\yolt\\accounts-and-transactions\\token
+  kafka:
+    topics:
+      ingestion-requests:
+        topic-name: ingestionRequest
+        listener-concurrency: 8
+      requests-errors:
+        topic-name: RequestsErrors
+      activityEvents:
+        topic-name: activityEvents
+        listener-concurrency: 8
+      account-events:
+        topic-name: accountEvents
+#      transaction-enrichments:
+#        topic-name: transactionEnrichments
+#        listener-concurrency: 8

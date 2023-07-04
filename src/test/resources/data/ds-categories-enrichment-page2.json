@@ -1,0 +1,35 @@
+{
+  "domain": "CategoriesEnrichment",
+  "version": 1,
+  "activityId": "7183ea5e-4151-4a95-ad82-4076cf7c4b71",
+  "time": "2000-08-04T16:00:00.000000+02:00",
+  "key": {
+    "userId": "751e7b04-5eee-47ef-8a36-2d2d409d1b00",
+    "requestTraceId": "A85046B9-5D41-4625-B030-E2B99E927DC6"
+  },
+  "messageIndex" : 1,
+  "messageTotal": 2,
+  "transactions": [
+    {
+      "key": {
+        "accountId": "f7a10a55-33e0-4e43-b723-35e73b03cf67",
+        "transactionId": "4151958e-ee50-4ccf-ba6a-b0c3b6fe6d7d",
+        "userId": "751e7b04-5eee-47ef-8a36-2d2d409d1b00",
+        "date": "2020-08-04",
+        "pending": 1
+      },
+      "category": "enriched-category-transaction-4151958e-ee50-4ccf-ba6a-b0c3b6fe6d7d",
+      "source": "Y",
+      "categories": {
+        "sme_categories": {
+          "category": "transport",
+          "categorySource": "Unknown"
+        },
+        "personal_categories": {
+          "category": "enriched-category-transaction-4151958e-ee50-4ccf-ba6a-b0c3b6fe6d7d",
+          "categorySource": "Unknown"
+        }
+      }
+    }
+  ]
+}

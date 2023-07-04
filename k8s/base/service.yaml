@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: accounts-and-transactions
+  labels:
+    team: yts-core
+spec:
+  selector:
+    name: accounts-and-transactions
+    serving: "true"
+  ports:
+    - port: 443
+      name: https
+      targetPort: 8443

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: accounts-and-transactions-kustomize
+data:
+  docker_registry: replaced-by-ci
+  environment_name: yfb-acc
+  service_tag: replaced-by-ci
+  config_server_tag: replaced-by-ci
+  docker_tag: replaced-by-ci

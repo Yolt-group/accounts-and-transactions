@@ -1,0 +1,69 @@
+= Transaction Enrichment
+
+Transaction enrichment is the process where this service receives enrichment-messages over Kafka from the data-science domain
+with additional information about transactions. This service will enrich the transactions with that additional information.
+When we say "enrich" we mean we store information (metadata) about a transaction that the bank did not give us originally, but that we inferred at Yolt.
+
+There are 4 types of enrichment-messages.
+Each message holds additional enrichment information of a specific type.
+These are:
+
+* _categories_
+* _counterparties_
+* _labels_
+* _transaction-cycles_
+
+Clients can _subscribe_ to any one of these enrichments.
+The `ClientToken` contains claims that indicate which types of enrichments the client is subscribed to (i.e. which are _relevant_ for the client).
+If a client is not interested (is not paying for) enrichment information, we discard the enrichment information that we receive for the client: we do not store the data in the database in that case.
+
+== Initiation
+
+There are 2 scenarios that start the enrichment process.
+The first starts when we receive transaction data from `providers` and is described in paragraph <<Ingestion>>.
+The second scenario starts when a client initiates a feedback request which is described in link:transaction-feedback.adoc[Feedback]
+
+=== Ingestion
+
+When we receive transaction data from `providers` over Kafka the regular reconciliation process is started.
+Part of that process is storing transaction information in the data-science keyspace.
+Eventually, data-science will use that information to start their enrichment pipeline.
+We mark this moment as the start of an `ActivityEnrichment`.
+
+See: `AccountsAndTransactionsService`
+
+== Handling of `EnrichmentMessage` 's
+
+There are 4 different types of `EnrichmentMessage` 's and data-science will always send all 4 for each _activity_.
+Each message contains a list of transactions that are affected (i.e. to be enriched).
+This list of transactions can be empty if none of the transactions are affected.
+
+Upon receipt of an `EnrichmentMessage` it is determined if the message should be handled.
+One criterion is if the client subscribed to the type of `EnrichmentMessage` (indicated by claims in the `ClientToken`).
+
+In case the `EnrichmentMessage` should be processed the information is persisted in our keyspace.
+However, the information is not stored in the `Transaction` itself but in `EnrichedTransaction`.
+The latter has identical keys which makes for a 1-to-1 relation.
+The reason for a separate table is out of performance considerations.
+Storing it in `Transaction` would require a _read-update-write_ cycle which for the possible higher number of transactions that need to be updated would impact performance drastically.
+The downside of an additional table with the `EnrichedTransaction` information is that retrieval of transaction information requires reading a `Transaction` followed by reading an associated `EnrichedTransaction` (which does not need to exist) and combining them into one `TransactionDTO`.
+
+Once the `EnrichedTransaction` is written we register an `ActivityEnrichment`.
+This `ActivityEnrichment` contains the `activityId` and the type of `EnrichmentMessage`.
+From the list of affected transactions in the `EnrichmentMessage` we determine the associated `accountId` 's, and the date of the oldest changed transaction per account.
+There will be one `ActivityEnrichment` for each `EnrichmentMessage` per _activity_ (indicated by the `enrichmentType` attribute).
+
+[NOTE]
+==========
+There is one _internal_ `ActivityEnrichment` which is registered when *we* mark the start of enrichment.
+The `enrichmentType` attribute for this start entry is set to *INITIAL*.
+With this *INITIAL* `ActivityEnrichment` we also save a checksum that indicates which `EnrichmentMessage` 's are expected.
+==========
+
+The different `EnrichmentMessage` 's will arrive in random order and asynchronously.
+We can conclude that the enrichment for an activity has finished once all required `EnrichmentMessage` 's have been processed.
+We do this by calculating the checksum of the received `EnrichmentMessage` 's with the checksum that was saved with the *INITIAL* `ActivityEnrichment`.
+From these `EnrichmentMessage` 's we determine the overall list of `accountId` 's, and the oldest changed transaction.
+Once they have we will send an `TransactionsEnrichmentFinishedEvent` on Kafka.
+
+See: `TransactionEnrichmentsEventConsumer`

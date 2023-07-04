@@ -1,0 +1,41 @@
+How is the table accounts_and_transactions.accounts filled?
+===
+
+Based on the following input data:
+
+1. AccountsAndTransactionsRequestDTO.ProviderAccountDTO, coming in over Kafka from the providers pod
+2. AccountDTO, acquired over http by calling the accounts pod
+3. UserContext
+                                                                                               accounts_and_transactions keyspace
+                                                                                              +----------------------------------+
+
+                                                                                               accounts table
+
+                                              UserContext                       userId +-----> user_id                  uuid
+                                               AccountDTO [2]                accountId +-----> id                       uuid
+                                       ProviderAccountDTO                   externalId +-----> external_id              string
+                                       ProviderAccountDTO coalesce(current, available) +-----> balance                  BigDecimal
+                                       ProviderAccountDTO              yoltAccountType +-----> type                     string
+                                       ProviderAccountDTO                     currency +-----> currency                 string
+                                       ProviderAccountDTO                   <function> +-----> status                   string
+                                       ProviderAccountDTO                         name +-----> name                     string
+                    ProviderAccountDTO.ExtendedAccountDTO                      product +-----> product                  string
+              ProviderAccountDTO.ProviderAccountNumberDTO                   holderName +-----> account_holder           string
+              ProviderAccountDTO.ProviderAccountNumberDTO[iban]         identification +-----> iban                     string
+ProviderAccountDTO.ExtendedAccountDTO.AccountReferenceDTO[maskedPan]    identification +-----> masked_pan               string
+ProviderAccountDTO.ExtendedAccountDTO.AccountReferenceDTO[pan]          identification +-----> pan                      string
+ProviderAccountDTO.ExtendedAccountDTO.AccountReferenceDTO[bban]         identification +-----> bban                     string
+              ProviderAccountDTO.ProviderAccountNumberDTO[sortcode]     identification +-----> sort_code_account_number string
+                                                                                               interest_rate            BigDecimal
+                        AccountsAndTransactionsRequestDTO                   userSiteId +-----> user_site_id             uuid
+                        AccountsAndTransactionsRequestDTO                       siteId +-----> site_id                  uuid
+                 ProviderAccountDTO.ProviderCreditCardDTO        totalCreditLineAmount +-----> credit_limit             BigDecimal
+                 ProviderAccountDTO.ProviderCreditCardDTO        availableCreditAmount +-----> available_credit         BigDecimal
+                    ProviderAccountDTO.ExtendedAccountDTO               linkedAccounts +-----> linked_account           string
+                                       ProviderAccountDTO                          bic +-----> bic                      string
+                                                                                               is_money_pot_of          string
+                                                                                               updated                  timestamp
+                                               AccountDTO [2]                   hidden +-----> hidden                   boolean
+                                       ProviderAccountDTO                 bankSpecific +-----> bank_specific            map<string, string>
+                    ProviderAccountDTO.ExtendedAccountDTO                        usage +-----> usage                    string
+                                                                                 now() +-----> last_data_fetch_time     timestamp

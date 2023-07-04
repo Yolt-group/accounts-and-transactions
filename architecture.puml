@@ -1,0 +1,20 @@
+@startuml
+[Ingestion] as ingestion
+
+[Accounts] as accounts
+[Users] as users
+
+queue "activityEvents" as activityEvents_topic
+queue "ingestionRequest" as ingestionRequest_topic
+queue "ingestionRequestsErrors" as ingestionRequestsErrors_topic
+
+database "datascience" as datascience_keyspace
+ingestion -[#red]-> datascience_keyspace
+
+ingestionRequest_topic -[#blue]-> ingestion : subscribes
+ingestion -[#blue]-> activityEvents_topic : publishes
+ingestion -[#blue]-> ingestionRequestsErrors_topic : publishes
+
+ingestion -[#black]> accounts : HTTP
+ingestion -[#black]> users : HTTP
+@enduml

@@ -1,0 +1,11 @@
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: accounts-and-transactions-pod-disruption-budget
+  labels:
+    name: accounts-and-transactions
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      name: accounts-and-transactions

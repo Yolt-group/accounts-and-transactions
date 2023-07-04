@@ -1,0 +1,1 @@
+truncate table batch_sync_progress_state;

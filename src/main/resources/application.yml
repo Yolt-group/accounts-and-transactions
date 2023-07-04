@@ -1,0 +1,63 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /accounts-and-transactions
+  tomcat:
+    max-threads: 4
+info:
+  appName: Acounts and Transactions API
+  build:
+    version: 0.0.1
+    number: 1
+spring:
+  main:
+    banner-mode: "off"
+  kafka:
+    consumer:
+      properties:
+        interceptor.classes: com.yolt.accountsandtransactions.metrics.kafka.JsonKeyMetricKafkaRecordInterceptor
+  jpa:
+    open-in-view: false
+springdoc:
+  override-with-generic-response: false
+  writer-with-order-by-keys: true
+  model-converters:
+    polymorphic-converter:
+      enabled: false
+yolt:
+  commons:
+    error-handling:
+      prefix: AT
+  accounts-and-transactions:
+    offload:
+      ais:
+        enabled: false
+  client-token:
+    verification:
+      enabled: true
+  vault:
+    enabled: true
+    cassandra:
+      enabled: true
+    postgresql:
+      enabled: true
+content-api:
+  service-name: accounts-and-transactions
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, prometheus
+      base-path: /actuator
+  server:
+    port: 9443
+    ssl:
+      enabled: true
+      key-store: /vault/secrets/keystore.p12
+      key-alias: keystore
+      key-store-password: dontchangeit
+  endpoint:
+    health:
+      group:
+        readiness:
+          include: readinessState, cassandra, kafka

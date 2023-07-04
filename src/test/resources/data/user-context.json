@@ -1,0 +1,76 @@
+{
+  "id": "%s",
+  "userId":"%s",
+  "phoneNumber": "+447704278064",
+  "firstName": "LB_Roger",
+  "lastName": "LB_Whittaker",
+  "emailAddress": "yolt@example.com",
+  "preferredCurrency": "GBP",
+  "countryCode": "%s",
+  "locale": "%s",
+  "trackingId": "3edf19e1f63d0addb039d77a7a0d8086",
+  "refreshAccountsOnLogin": false,
+  "isExperimentalUser": true,
+  "created": 1525700493032,
+
+  "features": [
+    {
+      "name": "top_bar"
+    },
+    {
+      "name": "recategorisation_transation_details"
+    },
+    {
+      "name": "recategorisation_swipe"
+    },
+    {
+      "name": "enable_experimental_site_82c16668-4d59-4be8-be91-1d52792f48e3"
+    },
+    {
+      "name": "budget_on_categories"
+    },
+    {
+      "name": "transactions_tab_predicted"
+    },
+    {
+      "name": "mfa_not_supported"
+    },
+    {
+      "name": "contact_add_site_request"
+    },
+    {
+      "name": "action_subscriptions"
+    },
+    {
+      "name": "left_to_spend"
+    },
+    {
+      "name": "tiles_and_daily_cards"
+    },
+    {
+      "name": "actions_energy_comparison"
+    },
+    {
+      "name": "user_profile_delete"
+    },
+    {
+      "name": "insight__life_insurance_switch"
+    },
+    {
+      "name": "action_budgets"
+    },
+    {
+      "name": "action_moneytis"
+    },
+    {
+      "name": "actions_tab_anorak"
+    },
+    {
+      "name": "international_money_transfers"
+    },
+    {
+      "name": "action_anorak"
+    }
+  ],
+  "clientId": null
+}

@@ -1,0 +1,1 @@
+ALTER TABLE activity_enrichments_initiation ADD checksum bigint;

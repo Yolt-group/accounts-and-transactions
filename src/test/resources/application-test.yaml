@@ -1,0 +1,80 @@
+environment: local
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    cassandra:
+      contact-points: 127.0.0.1
+      keyspace-name: accounts_and_transactions
+      ds-keyspace-name: datascience
+      username: cassandra
+      password: cassandra
+  datasource:
+    username: runner
+    password: runner
+    url: jdbc:postgresql://127.0.0.1:5432/integration-test-db
+  kafka:
+    consumer:
+      group-id: consumer-group-${random.uuid}
+      auto-offset-reset: earliest
+yolt:
+  kafka:
+    topics:
+      ingestion-requests:
+        topic-name: ingestionRequest
+        listener-concurrency: 1
+      activityEvents:
+        topic-name: activityEvents
+        listener-concurrency: 1
+      requests-errors:
+        topic-name: RequestsErrors
+        listener-concurrency: 1
+      account-events:
+        topic-name: accountEvents
+        listener-concurrency: 1
+      transaction-enrichments:
+        topic-name: transactionEnrichments
+        listener-concurrency: 8
+      user-site-events:
+        topic-name: userSites
+        listener-concurrency: 2
+      offload-yts-accounts:
+        topic-name: offload_yts_accounts
+        listener-concurrency: 1
+      offload-yts-transactions:
+        topic-name: offload_yts_transactions
+        listener-concurrency: 1
+  accounts-and-transactions:
+    scheduling:
+      enabled: false
+    enrichments:
+      datascience:
+        timeout: 0
+    offload:
+      ais:
+        enabled: true
+  vault:
+    enabled: false
+  service:
+    categories:
+      url: http://localhost:${wiremock.server.port}
+    preprocessing:
+      url: http://localhost:${wiremock.server.port}
+  transactions:
+    internal-summary:
+      fetch-size: 500
+service:
+  users:
+    url: http://localhost:${wiremock.server.port}
+  accounts:
+    url: http://localhost:${wiremock.server.port}
+  transaction-cycles:
+    url: http://localhost:${wiremock.server.port}
+  tokens:
+    signature-jwks: "{\"keys\":[{\"kty\":\"RSA\",\"e\":\"AQAB\",\"use\":\"sig\",\"kid\":\"2808f03d-1050-45f2-8c01-9c2441e050a8\",\"alg\":\"RS512\",\"n\":\"lRaJ738bbiMUpmTFLVXioZd7u9T9qm6LSH5FdW1AUrJJG-E4fo6n_30_ftUKc4ZZqotlJ-SvujHvqfNTbVkVy4m4j-yVgTQNP-OIsgTREVckcOk0v8bTaQALB3uCLA7xdDrr24K35tS5E6kDQQ8m9RvHiQk4owNLT81PevHkoH1lfgUwOZHfXLzJBqj_PXPoSIT1y9SfkCn7M00ea28n2xWbGXV_vj8bhJhKSXB2jnlHXO2QEXH6v8VoENl9CaWyjkJ0uJPPCyjRYO4-P2F92Xw88RC0rGGH-AA_sI9l8zOHu2MKFAL9txi2irUBq9bIayTWv0sjBbtHm_hopywVaw\"}]}"
+management:
+  server:
+    port: 8888
+    ssl:
+      enabled: false

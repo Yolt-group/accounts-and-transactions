@@ -1,0 +1,6 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: accounts-and-transactions
+spec:
+  replicas: 2

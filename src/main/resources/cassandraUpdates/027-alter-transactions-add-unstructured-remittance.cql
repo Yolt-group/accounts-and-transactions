@@ -1,0 +1,1 @@
+ALTER TABLE transactions ADD remittance_information_unstructured text;

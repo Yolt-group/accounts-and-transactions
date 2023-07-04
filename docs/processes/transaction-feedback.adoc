@@ -1,0 +1,59 @@
+= Transaction Feedback
+
+A client can also update some of the enrichment information that is provided by data-science.
+This is also known as _feedback_.
+A client can send a request to update the _counterparty_ or _category_ of a *single* transaction.
+We also accept a request for updating the _counterparty_ or _category_ on a *group* (or *bulk*) of transactions.
+We mark these moments as the start of an `ActivityEnrichment`.
+For a transaction feedback (single or bulk), the data-science pipeline is started.
+As a result we will receive the `EnrichmentMessage` 's.
+However, for a transaction feedback, data-science will also send an additional `EnrichmentMessage` with the information of the feedback request.
+This implies that some type of `EnrichmentMessage` can be seen more than once for a transaction-feedback.
+
+[NOTE]
+==========
+We send a request to data-science with information about the transaction(s) that should be updated but we do *not* update the transaction(s) in our own keyspace with the updated information immediately.
+The first reason is that the update of e.g. a _counterparty_ can also result in altering the value of another enriched field.
+The second reason is that YTS clients will have their own copy of the transaction data, so the client itself can choose to update its data immediately.
+Once the `EnrichmentMessage` 's come in we will update the transaction accordingly and eventually inform the client through a *webhook*.
+==========
+
+== Single transaction feedback
+
+When we receive a request from a client to update a single transaction we send a request to data-science with the transaction that should be updated (with the updated information).
+This will trigger the data-science pipeline and we mark this the start of the `ActivityEnrichment` with a newly generated `activityId`.
+Also at this point in time we are able to determine the affected `userSiteId` which is also stored in the `ActivityEnrichment`.
+The `activityId` is passed to data-science who will use that ID in the `EnrichmentMessage` 's that will be sent.
+This `activityId` is returned to the client.
+
+See: `TransactionsUpdateController`
+
+== Bulk transaction feedback
+
+A bulk transaction is performed in two phases.
+In the *first* phase the client sends a request with information about the so-called _seed-transaction_.
+We forward that information to data-science that determines one or more groups of transactions that would be affected by this update (the data-science pipeline is not triggered).
+We get the ID's of these groups.
+In addition, create a `BulkUpdateSession` in which we store the information about the _seed-transaction_ and optionally some additional details.
+The ID of the `BulkUpdateSession` and the list of group ID's are returned to the client.
+
+In the *second* phase the client sends ID of the `BulkUpdateSession` obtained in the *first* phase in combination with the ID's of the groups that must be updated.
+This information is forwarded to data-science and the pipeline will be triggered.
+We mark this the start of the `ActivityEnrichment` with a newly generated `activityId`.
+However we are not yet able to determine the set of affected `userSiteId` yet because in the time between the *first* and *second* phase the list of transactions that are part of the group may have changed.
+Therefore we await the response to the request to data-science which contains a list of `accountId` - `transactionId` pairs from which we can determine the affected `userSiteId` 's.
+The `ActivityEnrichment` is updated with this information.
+
+[NOTE]
+=======
+The `BulkUpdateSession` has a time-to-live in C*.
+It will be invalidated automatically.
+=======
+[NOTE]
+=======
+The information about the _seed-transaction_ is needed in the *second* phase.
+Since this information is stored in the `BulkUpdateSession` the client does not need to re-send that information and we do not need to verify that it is identical in both phases.
+=======
+
+See: `SimilarTransactionController` and `TransactionsUpdateController`
+

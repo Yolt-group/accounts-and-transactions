@@ -1,0 +1,63 @@
+How are the account tables in the datascience keyspace filled?
+===
+
+There are 2 tables in the datascience keyspace that relate to accounts.
+The account_current table contains a row for *all* accounts.
+The creditcards_current table contains a row for *some* accounts: only those accounts that are credit-card accounts.
+
+Based on the following input data:
+
+1. AccountsAndTransactionsRequestDTO.ProviderAccountDTO, coming in over Kafka from the providers pod
+2. AccountDTO, acquired over http by calling the accounts pod
+3. UserContext
+                                                                                               datascience keyspace
+                                                                                              +--------------------+
+
+                                                                                               account_current table [2]
+
+                                       ProviderAccountDTO                   yoltUserId +-----> user_id             uuid
+                                               AccountDTO [2]                       id +-----> account_id          uuid
+                                               AccountDTO [2]               userSiteId +-----> user_site_id        uuid
+                                               AccountDTO [2]                   siteId +-----> site_id             uuid
+                                               AccountDTO [2]               externalId +-----> external_account_id string
+                                                                                               external_site_id    string
+                                       ProviderAccountDTO                         name +-----> name                string
+                                       ProviderAccountDTO              yoltAccountType +-----> account_type        string
+                                               AccountDTO [2]             currencyCode +-----> currency_code       string
+                                       ProviderAccountDTO               currentBalance +-----> current_balance     BigDecimal
+                                       ProviderAccountDTO             availableBalance +-----> available_balance   BigDecimal
+                                       ProviderAccountDTO                lastRefreshed +-----> last_updated_time   Date
+                                                                                               status              string
+                                                                                               status_detail       string
+                                       ProviderAccountDTO                     provider +-----> provider            string
+                                       ProviderAccountDTO              extendedAccount +-----> extended_account    byte[]
+                                                                                               hidden              bool
+                                       ProviderAccountDTO                linkedAccount +-----> linked_account      string
+                                       ProviderAccountDTO                 bankSpecific +-----> bank_specific [1]   map<string, string>
+
+
+                                                                                               creditcards_current table [3]
+
+                                       ProviderAccountDTO                   yoltUserId +-----> user_id                  uuid
+                                               AccountDTO [2]                       id +-----> account_id               uuid
+                 ProviderAccountDTO.ProviderCreditCardDTO                          apr +-----> apr                      double
+                                                                                               as_of_date               string
+                 ProviderAccountDTO.ProviderCreditCardDTO        availableCreditAmount +-----> available_credit_amount  BigDecimal
+                 ProviderAccountDTO.ProviderCreditCardDTO                      cashApr +-----> cash_apr                 double
+                 ProviderAccountDTO.ProviderCreditCardDTO              cashLimitAmount +-----> cash_limit_amount        BigDecimal
+                                               AccountDTO [2]             currencyCode +-----> currency_code            string
+                 ProviderAccountDTO.ProviderCreditCardDTO                    dueAmount +-----> due_amount               BigDecimal
+                 ProviderAccountDTO.ProviderCreditCardDTO                      dueDate +-----> due_date                 string
+                                               AccountDTO [2]               externalId +-----> external_account_id      string
+                                                                                               external_site_id         string
+                 ProviderAccountDTO.ProviderCreditCardDTO            lastPaymentAmount +-----> last_payment_amount      BigDecimal
+                 ProviderAccountDTO.ProviderCreditCardDTO              lastPaymentDate +-----> last_payment_date        string
+                                       ProviderAccountDTO                lastRefreshed +-----> last_updated_time        timestamp
+                                                                                               min_payment_amount       BigDecimal
+                                               AccountDTO [2]                     name +-----> name                     string
+                 ProviderAccountDTO.ProviderCreditCardDTO             newChargesAmount +-----> new_charges_amount       BigDecimal
+                 ProviderAccountDTO.ProviderCreditCardDTO         runningBalanceAmount +-----> running_balance_amount   BigDecimal
+                                               AccountDTO [2]                   siteId +-----> site_id                  uuid
+                 ProviderAccountDTO.ProviderCreditCardDTO        totalCreditLineAmount +-----> total_credit_line_amount BigDecimal
+                                               AccountDTO [2]               userSiteId +-----> user_site_id             uuid
+                                                                                               extended_account         byte[]

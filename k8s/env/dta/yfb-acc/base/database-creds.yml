@@ -1,0 +1,9 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: accounts-and-transactions
+spec:
+  template:
+    metadata:
+      annotations:
+        vault.hashicorp.com/agent-inject-secret-rds: $(ENVIRONMENT)/database/accounts-and-transactions/creds/accounts-and-transactions

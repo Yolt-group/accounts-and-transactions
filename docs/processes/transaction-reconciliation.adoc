@@ -1,0 +1,271 @@
+= Transaction reconciliation
+
+The most important job of this service is transaction reconciliation.
+Transaction reconciliation is the job of deciding what to do with transaction data coming in from `providers`.
+
+
+== Background
+
+Whenever a user instructs the `site-management` service to fetch data for one or more banks, `site-management` will send an instruction to `providers` to do so.
+Once the `providers` service (this service talks to banks) has successfully obtained data, it will package that data per user-site and send it to this `service` over Kafka.
+The providers service sends us 1 or more accounts for every usersite, and every incoming account has 0 or more transactions.
+The entrypoint for this process is this Java class: `AccountsAndTransactionsRequestConsumer`.
+
+== Incoming data
+
+We briefly go over some important properties of the incoming data.
+
+=== No unique, stable transaction identifiers
+
+It is important to note that the incoming transaction data **does not have a transactionId** assigned.
+The providers service is **not responsible for assigning unique and stable identifiers** to every transaction.
+In an ideal world, providers would have this responsibility footnote:[In fact, in the past providers bore this responsibility, but since the service is stateless the only recourse it had was generating identifiers based on the content of the transaction itself. This lead to several problems, for example, how to deal with identical transactions? There is no reliable and fool-proof way to do this, since every data fetch a different 'slice' of all transactions of a user are visible, so you cannot reliably generate stable/unique identifiers given the existence of duplicate identifiers.], but since there are banks that assign literally no identifiers to transactions we can't let providers do this for us.
+
+=== externalId field
+
+What we do get from providers for every transaction is an optional field called `externalId`.
+This field contains the identifier of the transaction that the bank has assigned to it.
+It is optional because not all banks provide identifiers for transactions.
+The `externalId` is not guaranteed to be unique, there are instances of banks that serve us duplicate identifiers.
+
+== Stored data
+
+Before we go on to explain how reconciliation works, it is important to note that we store the transaction data in two different places.
+
+=== Datascience keyspace ("ds keyspace")
+
+This is historically the place where all the transaction data was stored.
+This Cassandra keyspace is owned by the datascience team and not by this service.
+We write only to a subset of the available columns, the other columns are owned by the datascience team.
+
+This keyspace is used as "the source of truth" with regards to the stored transactions during the reconciliation process.
+
+=== Our own keyspace ("own keyspace")
+
+In addition to the ds keyspace, we've started writing to our own keyspace during 2020 Q1.
+The idea is that at some point this service (and our team) will own all transaction data, and that we'll stop writing to the ds keyspace.
+For now though, we are stuck with writing to two keyspaces.
+
+== Reconciliation strategies
+
+The following chapter only explains the working of the `DefaultTransactionInsertionStrategy`.
+There is an alternative strategy for scraping providers called `DeltaTransactionInsertionStrategy`.
+This latter strategy is used for scraping providers because they only provide us with deltas of transaction data, they do not offer us the ability to retrieve transactions for a given timewindow, and hence no complicated reconciliation is needed.
+
+== Reconciliation (default strategy)
+
+Now that the stage has been set we can finally explain how reconciliation works in some detail.
+
+To compare the incoming transactions to those that we have stored in the database, we need to determine which transactions in the database 'overlap' with the incoming transactions.
+To do that we look at the earliest timestamp, call it `t0` present in the incoming batch (this field: `ProviderTransactionDTO.dateTime`) and retrieve every transaction from the datascience keyspace that happened on or after `t0`.
+In practice this is somewhat involved because of limitations of what you can ask from Cassandra, see this Java method for all the details: `retrieveStoredTransactionsInSameTimeWindow`.
+
+Once this step has been completed, we will look at every **stored transaction** and will try to find its match in the incoming data.
+
+If we can match the stored transaction `S` to a unique incoming transaction `T` using `externalId` field, we assume it is the same transaction.
+If there is more than 1 candidate `T_0, ..., T_n` with the same `externalId`, we select the one with a matching date and amount, or if that fails, the one with the matching date.
+
+Otherwise, if we cannot use the `externalId` to match (for example because the bank does not provide it), we do the following.
+Select transactions `T_0, ..., T_n` with the same date, and the same amount as `S`.
+If `n = 0` we select `T_0` as the match, otherwise if `n > 1` we reduce the selection further by matching on the field description.
+If `n > 1` is still true, we select a transaction `T_i` randomly and use that as the match.
+
+If both of the above (matching using `externalId`, matching using attributes) fail to find a match, we conclude that the transaction is a new one that we haven't see before.
+We proceed to assign a new and unique random UUID to its `transactionId` field.
+
+At the end of the above loop over all the stored transactions, we check if there are stored transactions for which we haven't found a match in the upstream transactions, and we mark them from deletion from the database.
+
+The reconciliation function returns a tuple with:
+
+* transactions to be inserted
+* transactions to be updated footnote:[Note that there is no technical difference between insertions and updates in Cassandra]
+* transactions to be deleted
+
+The method `reconcileUpstreamTransactionsWithPersisted` has further details.
+
+The instruction is executed against both the ds keyspace and our own keyspace.
+
+== Reconciliation (attribute matcher strategy)
+
+The default matching strategy is a non-strict matching strategy which matches by a number of heuristics.
+This can result in matching errors such as creating duplicate transactions, (re-)assigning existing transaction identifiers to the wrong transaction etc.
+
+Since not every bank provides external identifiers for all transactions, we need to discriminate between transactions using other fields.
+As the data provided by the banks vary greatly, every bank (or standard) needs to have a custom set of attributes to match on.
+
+As we don't want to create an attribute matcher for each bank, we try to generalize over a set of (similar) banks.
+However, even within the set of similar banks, the availability (and uniqueness) of transactions attributes varies greatly.
+To solve this we specify a number of attribute sets to be tried until there are no more attribute sets to try.
+
+For example: ING NL provides a non-null external-id, but the external-ids are not always unique (transactions from a foreign currency account always have the external-id: "Not Provided.
+Also, ING NL is known to shift the execution-date of the transactions (timestamp).
+
+
+=== Usage
+
+```
+    ProviderConfiguration.builder()
+            .provider("ING_NL")
+            .syncWindowSelector(new UnboundedSyncWindowSelector())
+            .matchers(List.of(
+                    EXTERNAL_ID_AMOUNT_STRICT,
+                    BOOKING_DATE_AMOUNT_STRICT,
+                    BOOKING_DATE_AMOUNT_STRICT.withoutSelector("noTs", TIMESTAMP)
+            ))
+            .build());
+...
+
+var strategy = new AttributeInsertionStrategy(Mode.TEST, transactionLoader, transactionIdProvider, configuration);
+```
+
+To still be able to match all transactions we define 3 matchers:
+
+* external-id and amount strict
+* booking-date and amount strict
+* booking-date and amount strict without timestamp
+
+The first matcher is to match only on external-id and amount, the second matcher matches the remainder on booking-date and amount, while the third matcher matches the remainder based on booking-date and amount without the timestamp.
+
+We define as many attribute sets as needed until we covered all the edge cases.
+
+=== Technical Implementation
+
+Every matcher outputs the matched transactions and the unmatched transactions with a reason (in order of importance/ weight):
+
+* unprocessed; transaction not yet processed (lowest weight).
+* rejected; the matcher rejected these transactions because of unmet requirements.
+* duplicate; the matcher could not uniquely identify these transactions.
+* peerless; the matcher was able to uniquely identify this transaction, but it didn't get matched to a counterpart (highest weight).
+
+This process has a number of fatal/ error outcomes:
+
+* There are remaining unmatched stored transactions - This discrepancy needs to be addressed before this account can update again.
+See `Left-over (unmatched) transactions originating from the database`
+* There are remaining duplicate stored transactions - There are transactions in the database which could not be uniquely identified, therefore, we cannot reliably match/pair all the transactions.
+See `Duplicate transactions in the database`
+* There are remaining duplicate upstream transactions - There are transactions in the upstream which could not be uniquely identified, therefore, we cannot reliably match/pair all the transactions.
+See `Duplicate transactions in the bank/ upstream` -
+* There are remaining rejected in either set (stored and bank).
+None of the matchers could be applied to some transactions because the transaction does not meet the requirements of any matcher.
+
+If there are no unmatched stored, duplicate or rejected transactions than the peerless transactions which are left over in the upstream are new transactions (or transactions which we didn't have in the database).
+
+Transactions which are "new" but have a date older than 7 days since the most recent stored transaction are marked as "BACKFILLED" as they are possibly older transactions which are brought back into existence (after being deleted).
+
+These occurrences are logged in https://kibana.yfb-ext-prd.yolt.io/goto/69f00eca65142f616d82f81471c9aeb3[Kibana].
+
+Every matcher has access to the result of the previous matcher, therefore the matcher knows what reason the previous matcher assigned to an unmatched transaction (duplicate, rejected, peerless).
+This basically comes down to some sort of voting mechanism.
+If the current matcher determines a transaction to be unmatched because of a reason that has a lower weight then the previous matcher assigned to the transaction, then the reason of the previous matcher is propagated.
+If the current matcher assigned a reason with a higher weight than the previous matcher did, we emit a new reason.
+
+If a transaction has already been marked as "peerless" (meaning that it has been unique identified in the set of transactions), then a subsequent matcher can never mark it again as a "duplicate" or a "rejection".
+
+=== Limitations
+
+The attribute matcher will only work correctly with a properly selected transaction window.
+Any transaction which does not come back from the database is marked as a new transaction.
+If the window is incorrectly selected, then the matcher might consider certain transactions as new while they were just not selected from the database.
+
+Example:
+We retrieve transactions from the database for comparison against the transactions we got from the bank.
+As we retrieve the transactions from the database based on a timestamp, we cannot get the exact number of transactions as most of the timestamps are set to 00:00.
+
+See the BoundedWindowSelector for a solution.
+
+The matcher does not resolve duplicates in the upstream nor in the stored transactions.
+
+If there are duplicates then the whole set of transactions is rejected.
+`This means that the matcher currently *cannot be used* to reconcile transactions from banks which do not provide unique transactions (in any form, be it via external-id, or some set of attributes).
+
+=== Problems with the transaction sync window
+
+We currently mix the use of booking-date and execution-date.
+The transaction sync window selection is based on the execution-date/ timestamp.
+Some banks (KNAB BANK) modify the execution-date retroactively which trips up the window selection.
+Ideally we should only use booking-date as this is hardly changed.
+
+The transaction sync window is also not perfectly aligned which causes more transactions to be loaded from the database then we have in the upstream.
+The transaction that is superfluously loaded it always on the edge of the oldest upstream transaction date.
+To not flag these as reconciliation errors, we allow all transactions from the database which could not be matched against an upstream counterpart if the date of the transaction coincides with the oldest upstream transaction date.
+
+These occurrences are logged in https://kibana.yfb-ext-prd.yolt.io/goto/fe0558732c1fea615d43c3e643d1ddc3[Kibana]
+
+```
+Mode: ACTIVE
+Provider: KNAB_BANK_NL
+Allowing 1 un-matched (PEERLESS) stored transaction(s), for which the date coincides with the oldest upstream transaction (2021-12-06).
+
+Unmatched transactions:
+|transaction-id                      |external-id                     |date      |booking-date|timestamp               |reason      |matcher                         |n-attr|
+|2daed6aa-50a1-458f-a187-22c4c1ac19b7|C1L03PGVY22N88E2550             |2021-12-06|2021-12-03|2021-12-05T23:00:00Z    |PEERLESS    |BookingDateAmountStrict         |7     |
+```
+
+=== Known problems
+
+There are a number of known problems:
+
+1. MONZO has an error in the pagination implementation (on their side) returning duplicate transactions.
+2. OpenBanking Banks: Barclays, Marbles, Halifax, Lloyds don't provide external-ids, however, they do provide end-to-end identifiers.
+Unfortunately the end-to-end identifiers are not correctly mapped, so we cannot use this field to discriminate between duplicates (https://yolt.atlassian.net/browse/C4PO-9353))
+3. ING does not provide a unique transaction identifier for foreign currency accounts
+4. KNAB provides transactions where the execution-date > booking-date, which is incorrect.
+
+For some banks it's better to implement a different strategy where we only append from the last known full booking-date.
+This means that these accounts are at least 24 hours behind, cannot be refreshed beyond the last known full booking-date and can only be refreshed once a day.
+
+=== Test mode
+
+Currently there are 9 banks active and the other banks (mostly neo-banks and open-banking) are run in test mode (via ActivePassiveInsertionStrategy).
+The reconciliation failures can be viewed in https://kibana.yfb-ext-prd.yolt.io/goto/0d2a8ec670679b60bc81f0c70b251424[Kibana]
+
+=== I received an alert about a reconciliation failure(s). What to do?
+
+There are a number of situations which may result in a reconciliation failure, namely:
+
+* There are duplicate transactions (or transactions which cannot be discriminated from one another) in the set of transactions received from the bank
+
+* There are duplicate transactions (or transactions which cannot be discriminated from one another) in the set of transactions stored in the database
+
+* After reconciliation, we are left with unmatched transactions that we have in the database, but are not returned any more by the bank given the transaction sync window.
+
+=== Duplicate transactions from the bank/ upstream
+
+If there are duplicate transactions in the set of transactions from the bank/ upstream, then as long as these transactions are present in the transaction sync window the account cannot make any progress.
+
+The solution to this problem is to create a better matcher which is capable of resolving the duplicates.
+
+=== Duplicate transactions in the database
+
+If there are duplicate transactions in the set of transactions in the database, then as long as these transactions are present in the transaction sync window the account cannot make any progress.
+
+Duplicate transactions can be caused by:
+
+* The matcher not being able to unique identify (some) transactions (e.a. BARCLAYS returns the exact same data for transactions which are actually unique (in the sense that they all happened).
+** Solution: Create a better matcher which is capable of uniquely identifying the transactions or use a completely different reconsiliation strategy
+
+* The database contains actual duplicate transactions caused by the previous matcher which created actual duplicates in some situations.
+** Solution: If the transactions are an actual duplicate, remove one of the duplicates.
+
+=== Left-over (unmatched) transactions originating from the database
+
+The goal of the reconciliation is to pair/match all the transactions in both transaction sets (bank vs database).
+
+Left-over transactions can be caused by:
+
+* Transactions not longer being returned by the bank in the first place (should not happen with booked)
+** Solution: If the transactions are no longer returned by the bank (offset the RDD data again the database to check if they actually got removed by the bank), then we need to manually remove this transaction from the database.
+
+* Transactions can no longer be matched to its bank/ upstream counterpart because some fields that we use to unique identify transactions on got changed and the transaction from the bank not longer matches with the transaction we have in the database.
+** Solution: Determine what got changed in the mapping and either revert the changes or amend the matcher to account for the changes in the mapping.
+
+* Refresh/Transaction window mis-alignment which there are more transactions returned from the database then we have in the set of transactions from the bank resulting in two incomplete sets.
+** Solution: Do nothing but monitor the situation.
+As time progresses the refresh/transaction window might change which will re-align itself at some point.
+
+=== How to investigate reconciliation errors
+
+The best way to investigate the reconciliation is to consult Kibana:
+
+* Check the MatchResults (reconciliation report)
+* Check the reconciliation errors

@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: accounts-and-transactions
+spec:
+  template:
+    spec:
+      containers:
+        - name: accounts-and-transactions
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: team,$(ENVIRONMENT),$(NAMESPACE),$(ENVIRONMENT)-$(NAMESPACE)

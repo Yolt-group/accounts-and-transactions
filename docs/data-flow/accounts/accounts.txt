@@ -1,0 +1,44 @@
+How is the account tables in the accounts keyspace filled?
+===
+
+The account table is filled by two paths:
+
+1. http calls from this (accounts_and_transactions) service
+2. writes from the aggregation pod, the aggregation pod writes directly to the accounts keyspace based on data in the datascience keyspace
+
+                                                                accounts keyspace
+                                                               +-----------------+
+
+                                                                account table
+                                              [1] [2] [3]
+                     account_current.user_id   x                user_id                          uuid
+                  account_current.account_id   x                id                               uuid
+                                                   x            external_id                      string
+                                                   x            user_site_id                     uuid
+                                                   x            site_id                          uuid
+                        account_current.name   x   x            name                             string
+                                                                nickname                         string
+                        account_current.type   x   x            type                             string
+               account_current.currency_code   x   x            currency_code                    CurrencyCode
+             account_current.current_balance   x                balance                          BigDecimal
+           account_current.available_balance   x                available_balance                BigDecimal
+                                                                last_refreshed                   date
+                                                       x        account_holder_name              string
+                                                       x        account_scheme                   enum Scheme
+                                                                custom_account_scheme            enum Scheme
+                                                       x        account_identification           string
+                                                                custom_account_identification    string
+                                                       x        account_secondary_identification string
+                                                   x   x        account_masked_identification    string
+                                                   x   x        status                           enum DatascienceStatus
+                                                                updated                          date
+                                                                deleted                          bool
+                                                                hidden                           bool
+                                                   x   x        closed                           bool
+            account_current.extended_account   x                extended_account                 byte[]
+            account_current.linked_account     x                linked_account                   string
+            account_current.bank_specific      x                bank_specific                    string
+
+ [1] aggregation writes this field
+ [2] this field is filled by accounts_and_transactions (create)
+ [3] this field is filled by accounts_and_transactions (update)
